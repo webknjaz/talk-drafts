@@ -1,0 +1,76 @@
+# Git and the bad day
+ 8804  2017-02-02 10:43  gcl git@github.com:hectorsector/git-and-the-bad-day
+ 8805  2017-02-02 10:43  cd  git-and-the-bad-day
+ 8806  2017-02-02 10:44  mkdir git-merge-2017
+ 8807  2017-02-02 10:44  mv git-and-the-bad-day git-merge-2017/
+ 8808  2017-02-02 10:44  cd git-merge-2017/git-and-the-bad-day/
+ 8809  2017-02-02 10:44  git log --oneline
+ 8810  2017-02-02 10:44  # find BFG commit
+ 8811  2017-02-02 10:45  git bisect start
+ 8812  2017-02-02 10:45  git bisect bad HEAD  # mark broken version
+ 8813  2017-02-02 10:47  git bisect good 06f
+ 8814  2017-02-02 10:51  g revert 815
+ 8815  2017-02-02 10:51  git bisect reset # end bisecting
+ 8816  2017-02-02 10:51  g revert --abort
+ 8817  2017-02-02 10:51  g revert 815de43
+ 8818  2017-02-02 10:51  vim git-and-the-bad-day.md
+ 8819  2017-02-02 10:52  ga git-and-the-bad-day.md
+ 8820  2017-02-02 10:52  g revert --continue
+ 8821  2017-02-02 10:53  gb remove-bfg
+ 8822  2017-02-02 10:54  g reset --hard HEAD~
+ 8823  2017-02-02 10:54  git log --oneline | cat  # see the history
+ 8824  2017-02-02 10:55  # removing a binary from the history
+ 8825  2017-02-02 10:56  # using git filter-branch
+ 8826  2017-02-02 11:02  touch keynote.key
+ 8827  2017-02-02 11:02  ga keynote.key
+ 8828  2017-02-02 11:03  gcmsg "add kn presentation"
+ 8829  2017-02-02 11:04  g reflog | cat
+ 8830  2017-02-02 11:04  gco remove-bfg 
+ 8831  2017-02-02 11:04  gcp 6837239
+ 8832  2017-02-02 11:04  gc --allow-empty
+ 8833  2017-02-02 11:04  gm remove-bfg 
+ 8834  2017-02-02 11:04  g reflog
+ 8836  2017-02-02 11:05  g filter-branch --tree-filter 'rm -f keynote.key' HEAD
+ 8837  2017-02-02 11:06  g update-ref -d refs/original/refs/heads/master
+ 8838  2017-02-02 11:06  g reflog expire --expire=now --all
+ 8839  2017-02-02 11:07  g gc --prune=now
+ 8840  2017-02-02 11:07  # cleaned up
+
+# Submodules vs. Subtrees
+ 8841  2017-02-02 11:31  gcl git@github.com:hectorsector/parent-project-demo hektor-parent
+ 8843  2017-02-02 11:32  gcl git@github.com:kylemacey/parent-project-demo kyle-parent
+ 8844  2017-02-02 11:32  gcl git@github.com:githubschool/subproject-demo
+ 8849  2017-02-02 11:34  cd hektor-parent
+ 8850  2017-02-02 11:35  cd kyle-parent
+ 8851  2017-02-02 11:36  git subtree add --prefix=subproject ../subproject-demo/.git master --squash
+ 8852  2017-02-02 11:37  gd HEAD~
+ 8853  2017-02-02 11:37  gd HEAD~ | cat
+ 8854  2017-02-02 11:37  g log 
+ 8855  2017-02-02 11:37  glog --oneline
+ 8856  2017-02-02 11:37  g log --oneline
+ 8857  2017-02-02 11:37  g log --oneline | cat
+ 8858  2017-02-02 11:39  l subprojects
+ 8859  2017-02-02 11:39  g submodule add ../subproject-demo/.git subprojects/demo
+ 8860  2017-02-02 11:39  g submodule add file:///../subproject-demo/.git subprojects/demo
+ 8861  2017-02-02 11:39  g submodule add file://../subproject-demo/.git subprojects/demo
+ 8862  2017-02-02 11:40  g submodule add git@github.com:githubschool/subproject-demo.git subprojects/demo
+ 8863  2017-02-02 11:40  g submodule foreach --recurcive git diff
+ 8864  2017-02-02 11:41  g submodule foreach --recursive git diff
+ 8865  2017-02-02 11:41  g submodule foreach --recursive git diff | cat
+ 8866  2017-02-02 11:43  vim subproject/bin/appliance
+ 8867  2017-02-02 11:44  gc subproject/bin/appliance -m "stuff"
+ 8868  2017-02-02 11:44  git subtree push --prefix=subproject ../subproject-demo/.git newest-branch
+ 8869  2017-02-02 11:45  cd subprojects/demo/
+ 8870  2017-02-02 11:45  gp push --recursive-submodules=on-demand
+ 8871  2017-02-02 11:45  gp push --recusive-submodules=on-demand
+ 8872  2017-02-02 11:46  gp push --recurse-submodules=on-demand
+ 8873  2017-02-02 11:47  gc .gitmodules subprojects 
+ 8874  2017-02-02 11:47  gp --recurse-submodules=on-demand
+ 8875  2017-02-02 11:49  g submodule update --remote --merge
+ 8876  2017-02-02 11:50  ga subprojects
+ 8877  2017-02-02 11:50  gcmsg
+ 8878  2017-02-02 11:50  gcmsg "Pull changes from GitHub"
+ 8879  2017-02-02 11:51  cd ../subproject-demo
+ 8880  2017-02-02 11:51  gl
+ 8881  2017-02-02 11:51  git subtree pull --prefix=subproject ../subproject-demo/.git master --squash
+ 8883  2017-02-02 12:45  g rev-list --max-count=1 master..branch
