@@ -1,0 +1,146 @@
+ # Git and the Terrible, Horrible, No Good, Very Bad Day
+ # by @hectorsector
+ 2017-02-02 10:32  mkdir gitmerge
+ 2017-02-02 10:32  cd gitmerge
+ 2017-02-02 10:42  gcl https://github.com/hectorsector/git-and-the-bad-day
+ 2017-02-02 10:42  cd git-and-the-bad-day
+ 2017-02-02 10:43  git bisect start
+ 2017-02-02 10:44  git bisect bad HEAD
+ 2017-02-02 10:44  git bisect good 06f
+ 2017-02-02 10:44  git bisect good 06f84ba
+ 2017-02-02 10:45  less git-and-the-bad-day.md
+ 2017-02-02 10:45  git bisect bad
+ 2017-02-02 10:45  grep BFG git-and-the-bad-day.md
+ 2017-02-02 10:45  git bisect good
+ 2017-02-02 10:46  git bisect reset
+ 2017-02-02 10:47  git show 815de431b994a5fe6e7af032a3ae0b4aa4423db9
+ 2017-02-02 10:47  git diff 815de431b994a5fe6e7af032a3ae0b4aa4423db9
+ 2017-02-02 10:47  git diff 815de431b994a5fe6e7af032a3ae0b4aa4423db9..HEAD
+ 2017-02-02 10:49  git diff --cached
+ 2017-02-02 10:50  git revert --abort
+ 2017-02-02 10:50  git revert 815de431b994a5fe6e7af032a3ae0b4aa4423db9
+ 2017-02-02 10:50  vi git-and-the-bad-day.md
+ 2017-02-02 10:51  git revert --continue
+ 2017-02-02 10:52  git branch remove-bfg
+ 2017-02-02 10:53  gco remove-bfg
+ 2017-02-02 10:54  git reflof
+ 2017-02-02 10:57  touch credentials.txt
+ 2017-02-02 10:57  gc -am "add credentials"
+ 2017-02-02 10:58  git merge remove-bfg
+ 2017-02-02 10:59  git config --global --add alias.lol "log --graph --decorate --pretty=oneline --abbrev-commit --all"
+ 2017-02-02 10:59  g lol
+ 2017-02-02 10:59  git lol | cat
+ 2017-02-02 11:01  git diff c516c69..fa521a2
+ 2017-02-02 11:01  git diff c516c69...fa521a2
+ 2017-02-02 11:03  git reset --hard "HEAD^2"
+ 2017-02-02 11:03  g reset e1410e6
+ 2017-02-02 11:03  g reset e1410e6 --head
+ 2017-02-02 11:03  g reset e1410e6 --hard
+ 2017-02-02 11:04  git filter-branch --tree-filter 'rm -rf credentials.txt' HEAD
+ 2017-02-02 11:04  tree .git/refs
+ 2017-02-02 11:05  git update-ref -d refs/original/refs/heads/master
+ 2017-02-02 11:06  git reflog expire --expire=now --all
+ 2017-02-02 11:06  git gc --prune=now
+
+ # Submodules v subtrees
+ # by @hectorsector and @kylemacey
+ 2017-02-02 11:30  gcl https://github.com/githubschool/subproject-demo
+ 2017-02-02 11:30  gcl https://github.com/kylemacey/parent-project-demo
+ 2017-02-02 11:31  mv {,kylemacey-}parent-project-demo 
+ 2017-02-02 11:31  gcl https://github.com/hectorsector/parent-project-demo hectorsector-parent-project-demo\n
+ 2017-02-02 11:32  mkdir submodules-vs-subtrees
+ 2017-02-02 11:32  mv hectorsector-parent-project-demo kylemacey-parent-project-demo subproject-demo submodules-vs-subtrees
+ 2017-02-02 11:32  cd submodules-vs-subtrees
+ 2017-02-02 11:32  cd hectorsector-parent-project-demo
+ 2017-02-02 11:32  cd kylemacey-parent-project-demo
+ 2017-02-02 11:33  git submodule add https://github.com/kylemacey/subproject-demo subprojects/demo
+ 2017-02-02 11:34  git subtree add --prefix=subproject https://github.com/githubschool/subproject-demo master --squash
+ 2017-02-02 11:35  git diff HEAD~
+ 2017-02-02 11:35  ls subprojects
+ 2017-02-02 11:37  git commit -m "Add submodule to the project"
+ 2017-02-02 11:37  git log --oneline
+ 2017-02-02 11:39  vim subprojects/demo/bin/appliance 
+ 2017-02-02 11:40  git submodule foreach --recursive git diff
+ 2017-02-02 11:40  git commit -am "Tweaks"
+ 2017-02-02 11:41  git commit -am "Tweak"
+ 2017-02-02 11:42  vi subproject/bin/appliance
+ 2017-02-02 11:43  git commit -am "Add some commmet"
+ 2017-02-02 11:44  git subtree psuh --prefix=subproject https://github.com/githubschool/subproject-demo newest-branch
+ 2017-02-02 11:44  git subtree push --prefix=subproject https://github.com/githubschool/subproject-demo newest-branch
+ 2017-02-02 11:45  git push --recurse-submodules=on-demand
+ 2017-02-02 11:46  cd subprojects/demo/bin
+ 2017-02-02 11:50  cd subprojects/demo
+ 2017-02-02 11:50  git reset --hard HEAD ~
+ 2017-02-02 11:50  git reset --hard HEAD~
+ 2017-02-02 11:51  git submodule update --remote --merge
+ 2017-02-02 12:33  mkdir jedi-git
+ 2017-02-02 12:33  cd jedi-git
+ 2017-02-02 12:33  ls .git/hooks
+ 2017-02-02 12:37  git remote show origin
+ 2017-02-02 14:35  cd workspace/gitmerge
+ 2017-02-02 14:35  mkdir test
+ 2017-02-02 14:42  chmod +x git-new-commits
+ 2017-02-02 14:43  git commmit --allow-empty -m "Initial"
+ 2017-02-02 14:43  git commit --allow-empty -m "Initial"
+ 2017-02-02 14:43  git add git-new-commits
+ 2017-02-02 14:43  git commit -am "Git New Commits"
+ 2017-02-02 14:44  vi git-new-commits
+ 2017-02-02 14:44  ./git-new-commits
+ 2017-02-02 14:51  cd ~/workspace/KPI-FICT-IP32
+ 2017-02-02 14:51  cp {KPI-FICT-IP32.github.io,test}
+ 2017-02-02 14:51  cp {KPI-FICT-IP32.github.io,test} -r
+ 2017-02-02 14:52  git subtree slpit --branch newbranch --prefix _posts/kpi
+ 2017-02-02 14:52  git subtree split --branch newbranch --prefix _posts/kpi
+ 2017-02-02 14:53  git subtree split --branch newbranch-networks --prefix _posts/kpi/s06_networks
+ 2017-02-02 14:53  cd ~/workspace/gitmerge/test
+ 2017-02-02 14:54  git subtree add --prefix _posts/kpi/s06_network newbranch-networks
+ 2017-02-02 14:54  git log -- _posts/kpi/s06_networks/2016-02-18-networks-lecture-01.markdown
+ 2017-02-02 14:54  git log -- _posts/kpi/s06_networks/
+ 2017-02-02 14:56  gcb newbranch-networks
+ 2017-02-02 14:57  git remote add -f networks ~/workspace/KPI-FICT-IP32/test
+ 2017-02-02 14:57  git merge --allow-unrelated-histories networks/newbranch-networks
+ 2017-02-02 14:58  rm -rf test
+
+ # Repo 911 
+ # by @kylemacey
+ 2017-02-02 15:02  git-sh-setup
+ 2017-02-02 15:02  git-sh-setup.sh
+ 2017-02-02 15:29  mkdir repo911
+ 2017-02-02 15:31  cd repo911
+ 2017-02-02 15:36  rm -rf repo911
+ 2017-02-02 15:37  git clone https://github.com/anxolerd/repo-911
+ 2017-02-02 15:37  gcl git@github.com:anxolerd/repo-911.git
+ 2017-02-02 15:39  vi script/build
+ 2017-02-02 15:40  vi script/commit
+ 2017-02-02 15:40  vi script/generate_commits
+ 2017-02-02 15:40  ruby
+ 2017-02-02 15:41  script/generate_commits
+ 2017-02-02 15:44  chmod +x ~/bin/bfg
+ 2017-02-02 15:44  bfg
+ 2017-02-02 15:45  du -sh .git
+ 2017-02-02 15:46  git rm build/*war
+ 2017-02-02 15:47  git reset HEAD --hard
+ 2017-02-02 15:47  rm build/build_1486043076.war
+ 2017-02-02 15:47  git rm build/*.war
+ 2017-02-02 15:49  git clone --mirror git@github.com:anxolerd/repo-911.git
+ 2017-02-02 15:50  bfg -D *.war repo-911.git
+ 2017-02-02 15:52  git reflog expire --expire=now --all && git gc --prune=ow --aggressive
+ 2017-02-02 15:52  git reflog expire --expire=now --all && git gc --prune=now --aggressive
+ 2017-02-02 15:53  git push --mirror
+ 2017-02-02 15:53  git push 
+ 2017-02-02 15:53  git push repo-911
+ 2017-02-02 15:53  git push repo-911.git
+ 2017-02-02 15:53  git push .
+ 2017-02-02 15:56  cd repo-911
+ 2017-02-02 15:56  bfg --delete-files *.war repo-911.git
+ 2017-02-02 15:57  vi ~/bin/bfg
+ 2017-02-02 15:57  bfg -b
+ 2017-02-02 15:57  rm -rf repo-911
+ 2017-02-02 16:00  git clone --mirror https://github.com/githubteacher/repo-911.git
+ 2017-02-02 16:00  cd repo-911.git
+ 2017-02-02 16:01  git filter-branch -f --msg-filter \\n  'sed "s/This commit contains strictly confidential coding information.//"' -- --all
+ 2017-02-02 16:02  git filter-branch -f --msg-filter \\n  'sed "s/\n+Former-commit-id .*$//"' -- --all
+ 2017-02-02 16:04  git filter-branch -f --msg-filter \\n  'sed "s/+Former-commit-id .*//"' -- --all
+ 2017-02-02 16:04  git filter-branch -f --msg-filter \\n  'sed "s/Former-commit-id .*//"' -- --all
+ 2017-02-02 16:05  git filter-branch -f --msg-filter \\n  'sed "s/Former-commit-id: .*//"' -- --all
+ 2017-02-02 16:33  rm -rf repo-911.git
