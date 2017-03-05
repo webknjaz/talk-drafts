@@ -18,7 +18,7 @@ git reset
 ```
 
 ### Git Revert
-**git revert** to safely undo changes 
+**git revert** to safely undo changes
 
 git revert will create a new commit and will not affect repo history
 
@@ -40,7 +40,7 @@ You can reset to commit from reflog or even `cherry-pick` one from it
 
 ### Git Filter-Branch
 
-The common usage of it is to remove an accidentally commited file from 
+The common usage of it is to remove an accidentally committed file from
 the history completely
 
 ### Difference between .. and ...
@@ -51,7 +51,7 @@ the history completely
 ### Specify the specific parent
 
 If `HEAD` has several parents you can use `HEAD^2` to specify second parent or
-`HEAD^1` to specify the forst one
+`HEAD^1` to specify the first one
 
 ## Jedi Mind Tricks for Git
 
@@ -84,7 +84,7 @@ If `HEAD` has several parents you can use `HEAD^2` to specify second parent or
 #### Branch-based delivery
 
 - work on feature branch (prevent work on master)
-- refernce issues
+- reference issues
 - run CI setup
 - deliver through "ready" branches
 - deploy if CI succeeds
@@ -107,25 +107,25 @@ Git Attributes are commonly used for:
 - changing CRLF behaviour
 - text/binary behaviour
 
-In order to handle different filetypes you can create custom drivers
+In order to handle different file types you can create custom drivers
 
 ## Scaling Git at Microsoft
 
 Preamble
 
-- Windows repo is huge 
+- Windows repo is huge
 - Splitting repo is no choice, thus submodules and subtrees won't work here
-- **IDEA** virtualising FS underneath Git
+- **IDEA** virtual zing FS underneath Git
 
 **GVFS**
 
-- Filesystem driver
+- File system driver
 - read object hook
 - protocol to request a single blob/object was developed. This allows to download
   files on demand
 - Cache server
 
-The whole idea is to download only files that user need, and thus do not 
+The whole idea is to download only files that user need, and thus do not
 fetch a lot of unnecessary files.
 
 ## Scaling Mercurial at Facebook
@@ -150,16 +150,16 @@ fetch a lot of unnecessary files.
 - Scale
   - pushrebase extension
   - remote file log
-  - infinite push 
-    redirects branch push to blobstore. This allows unlimited branches 
-    - push every comit
+  - infinite push
+    redirects branch push to blobstore. This allows unlimited branches
+    - push every commit
     - sync between machines
 - Better UX for hg log (smartlog)
 
-  something similar to `git log --oneline --graph`
+  Something similar to `git log --oneline --graph`
 - Hg absorb
-  
-  identifies where the pending changes are
+
+  Identifies where the pending changes are
 
   (something like `git commit -p`)
 
