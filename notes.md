@@ -127,3 +127,43 @@ Preamble
 
 The whole idea is to download only files that user need, and thus do not 
 fetch a lot of unnecessary files.
+
+## Scaling Mercurial at Facebook
+
+### Current state
+
+- use monorepos
+- not using feature branches
+- rebasing instead of merging
+- single commit per push
+- team is mostly online
+- use bookmarks instead of branches
+
+### Problems
+
+- size of `.hg` directory
+- push rate is huge
+- large files in repo
+
+### Toolbelt
+
+- Scale
+  - pushrebase extension
+  - remote file log
+  - infinite push 
+    redirects branch push to blobstore. This allows unlimited branches 
+    - push every comit
+    - sync between machines
+- Better UX for hg log (smartlog)
+
+  something similar to `git log --oneline --graph`
+- Hg absorb
+  
+  identifies where the pending changes are
+
+  (something like `git commit -p`)
+
+  - hg fold
+  - hg split
+
+- Sparse checkouts
