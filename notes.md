@@ -109,3 +109,21 @@ Git Attributes are commonly used for:
 
 In order to handle different filetypes you can create custom drivers
 
+## Scaling Git at Microsoft
+
+Preamble
+
+- Windows repo is huge 
+- Splitting repo is no choice, thus submodules and subtrees won't work here
+- **IDEA** virtualising FS underneath Git
+
+**GVFS**
+
+- Filesystem driver
+- read object hook
+- protocol to request a single blob/object was developed. This allows to download
+  files on demand
+- Cache server
+
+The whole idea is to download only files that user need, and thus do not 
+fetch a lot of unnecessary files.
