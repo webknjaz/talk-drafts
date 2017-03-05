@@ -1,6 +1,6 @@
 # Prze Merge 2017
 
-_[@webknjaz](https://github.com/webknjaz)_, _[@anxolerd](https://github.com/anxolerd)_
+_by [@webknjaz](https://github.com/webknjaz)_, _[@anxolerd](https://github.com/anxolerd)_
 
 -----
 
