@@ -4,21 +4,46 @@ _by [@webknjaz](https://github.com/webknjaz)_, _[@anxolerd](https://github.com/a
 
 -----
 
-### Slide 1.1
-
->>>>>
-
-### Slide 1.2
-
->>>>>
-
-### Slide 1.3
+## Submodules vs. Subtrees
 
 -----
 
-### Slide 2.1
+## Repo 911 basics
+
+(loosely based on github.com/githubteacher/repo-911 by @kylemacey)
+
+-----
+
+## Git attributes and filters power
+
+(based on Jedi mind tricks)
+
+-----
+
+## Git aliases and git scripts
+
+(based on @kannonboy talk)
+
+
+-----
+
+## Things worth mentioning
 
 >>>>>
 
-### Slide 2.2
+### GVFS
+
+>>>>>
+
+### Git and Horrible, Terrible, No Good, Very Bad Day
+
+>>>>>
+
+### Hooks 
+
+(with the couple of examples)
+
+>>>>> 
+
+### Facebook toolbelt for hg
 
