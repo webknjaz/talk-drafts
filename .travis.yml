@@ -1,0 +1,7 @@
+script: echo No build step present yet
+deploy:
+  provider: pages
+  github-token:
+    secure: KDopp6sXlVFmyxcVvjsAK6/NiQ+kJbyqrhcBOwgZ8SgfYFlcl//ndrDkeioL6+pXk61xQtZ641yBx2pVcttE7xlu1QOLMKa5kNfe7Hq6EvkXyzE95QxmUfeuLd0WZ8h+zOMeCpf0DAjjwv/WrF3VoyQXN8WrXhb4/NzDETwPZuA//zWRwJY4StYtnp9GRlbzD0utZgUhR6nMZFERiGmR8uoUIyW7Esugqbybze0XqLqLB6kDzpoLQb3+Er4Djd8MD9bUkdltfq6xNCZyNfhkRSZsgnxGGZrlizg/w+/7pfEf0cXKAIjJ9mkWuEruE+6ZBJKTZsQ5+OGWPsmtuRF9wDhx6Q8KpHbfJhsMsDh3l65tfNt+X+y7wn72sNL6ws6l/Afi+4l6dCABb6tkQ+SluWVDlp81QhVAeRKr1dYjhTmxHg2Ebqq0BnEIma0aO5dbFPcQc6vabamtALu7s79R/+x0okLpm1pcqfz5OW308FuNsxpQSYD1w9oDcrW8V/iyVvy8QVl0QdPzU8GcsRyQR61SM5xngXKePEa32tYTxB/lD4V6Ilxfr49aYmDGzCSVVaUeO4cHDtOKAYxCCTKDo4ejZZeuLVNrHn/zCcJRwDzc62btA/fr/QChusKUTYWlqV2MFQxswKmoyq7x4PNCdpcnhaCA8Ourk7GLAe88Z4Y=
+  on:
+    branch: master
