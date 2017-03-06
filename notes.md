@@ -167,3 +167,12 @@ fetch a lot of unnecessary files.
   - hg split
 
 - Sparse checkouts
+
+# External links
+
+* [Github's recap](https://github.com/blog/2317-git-merge-2017-recap)
+* [Tim Petterson's recap](https://extranet.atlassian.com/display/~tim@atlassian.com/2017/02/13/Git+Merge+2017)
+* [Git rev](https://git.github.io/rev_news/2017/02/22/edition-24/)
+* [SSI: @rgaiacs writes in detail about Git Merge 2017 organised by @github](https://www.software.ac.uk/blog/2017-02-28-git-merge-2017)
+* [Edward Thomson: The Git Contributor Summit](http://www.edwardthomson.com/blog/git_contributor_summit.html)
+* [Carmen Bremen: Review – Git Merge 2017](http://neoshops.de/2017/02/04/review-git-merge-2017/)
