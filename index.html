@@ -9,17 +9,12 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/highlight.js/9.1.0/styles/monokai-sublime.min.css">
 
     <!-- Print stylesheet -->
-    <script type="text/javascript">
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      if (window.location.search.match( /print-pdf/gi )) {
-        link.href = '//cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
-      } else {
-        link.href = '//cdn.jsdelivr.net/reveal.js/3.0.0/css/print/paper.css';
-      }
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
+    <script type="text/javascript" src="scripts/style-chooser.js" async></script>
+
+    <script src="//cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.min.js" defer></script>
+    <script src="//cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js" defer></script>
+
+    <script type="text/javascript" src="scripts/reveal-loader.js" defer></script>
   </head>
   <body>
     <div class="reveal">
@@ -32,30 +27,6 @@
         </section>
       </div>
     </div>
-
-
-    <script src="//cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.min.js"></script>
-    <script src="//cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
-
-
-    <script>
-      // More info https://github.com/hakimel/reveal.js#configuration
-      Reveal.initialize({
-        history: true,
-        dependencies: [
-          {src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js' },
-          {src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js' },
-          {src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js' },
-          {src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js' },
-          {
-            src: '//cdn.jsdelivr.net/highlight.js/9.8.0/highlight.min.js',
-            async: true,
-            callback: function() { hljs.initHighlightingOnLoad(); }
-          },
-
-        ]
-      });
-    </script>
   </body>
 </html>
 
