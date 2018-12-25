@@ -12,7 +12,7 @@
   link.rel = 'stylesheet'
   link.type = 'text/css'
   link.href =
-    '//cdn.jsdelivr.net/reveal.js/3.0.0/css/print/' + style_type + '.css'
+    'node_modules/reveal.js/css/print/' + style_type + '.css'
 
   d.getElementsByTagName('head')[0].appendChild(link)  // add it to the DOM
 })(document, window)

@@ -8,23 +8,23 @@
     history: true,
     dependencies: [
       {
-        src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js',
+        src: 'node_modules/reveal.js/plugin/markdown/marked.js',
         defer: true
       },
       {
-        src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js',
+        src: 'node_modules/reveal.js/plugin/markdown/markdown.js',
         defer: true
       },
       {
-        src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js',
+        src: 'node_modules/reveal.js/plugin/zoom-js/zoom.js',
         defer: true
       },
       {
-        src: '//cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js',
+        src: 'node_modules/reveal.js/plugin/notes/notes.js',
         defer: true
       },
       {
-        src: '//cdn.jsdelivr.net/highlight.js/9.8.0/highlight.min.js',
+        src: 'node_modules/highlight.js/lib/highlight.js',
         async: true,
         callback: function() {
           hljs.initHighlightingOnLoad()
