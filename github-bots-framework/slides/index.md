@@ -1,6 +1,9 @@
 # GitHub Bots: changelog entries check demo, Apps APIs, frameworks
+<!-- .slide: data-state="cover" -->
+<!-- .#slide: data-background="#ff0000" -->
 
 _by [@webknjaz](https://github.com/webknjaz)_
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 Note: Hello world!
 
