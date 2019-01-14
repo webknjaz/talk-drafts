@@ -1,0 +1,13 @@
+GitHub User -> GitHub: I want to install The App
+GitHub -> GitHub User: Which user or org do you want to install The App?
+GitHub -> GitHub User: Which repos do you want The App to access?
+GitHub -> GitHub User: Do you grant these privileges to The App?
+GitHub User -> GitHub: Install. Accept.
+
+Note right of Bot: Is pre-authenticated\nvia private key\nand JWT
+GitHub->Bot: Hey Bot, you've got\ninstalled to The Org
+Note right of Bot: Bot authenticates as\nan installation
+Note right of Bot: Bot records\ninstallation ID\nand token
+Bot-->GitHub: Great, thanks!
+
+

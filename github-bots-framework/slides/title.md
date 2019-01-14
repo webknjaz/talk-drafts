@@ -7,8 +7,12 @@
 🤖 _by [@webknjaz](https://github.com/webknjaz)_
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-Note: Hello world!
+-----
 
-Hi there you!
+## Agenda
 
-changelog entries check demo, Apps APIs, frameworks
+- What's a bot
+- Current state of our bot-based workflow and its problems
+- GitHub Apps: the new best way of doing integrations
+- GitHub App demos
+- Questions & Answers
