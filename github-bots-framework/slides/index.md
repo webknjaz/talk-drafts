@@ -259,7 +259,7 @@ from octomachinery.github import events
 @events.integration_installation.handler
 async def on_install(action, installation, sender, repositories=None):
     with RUNTIME_CONTEXT.github_installation as github_client:
-        github_client.get_sender_info()
+        await github_client.get_sender_info()
         # ...
 
 
