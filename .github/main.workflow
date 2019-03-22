@@ -15,7 +15,7 @@ action "Deploy to GitHub Pages" {
   uses = "re-actors/dpl-action@master"
   needs = ["Install npm deps"]
   secrets = ["GITHUB_TOKEN"]
-  args = "--provider=pages"
+  args = "--provider=pages --github-token=${GITHUB_TOKEN}"
 }
 
 action "Install npm deps" {
