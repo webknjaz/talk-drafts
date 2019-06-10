@@ -225,7 +225,8 @@ X-RateLimit-Reset: 1377013266
 ```
 -->
 <center>
-![](http://beamusup.com/wp-content/uploads/2014/03/rate-limit-exceeded.png)
+<!-- ![](http://beamusup.com/wp-content/uploads/2014/03/rate-limit-exceeded.png) -->
+![](img/rate-limit-exceeded.png)
 <!-- .element: style="border: none;" -->
 <!-- ![](https://http.cat/429)-->
 <!-- .element: style="border: none;" -->
