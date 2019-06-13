@@ -12,5 +12,5 @@ Hi everyone,
 
 It is a great pleasure for me to be here!
 
-Today I will talk about a topic that I am interested in during the
-recent years. Bots.
+During the recent years, I've been researching one topic a lot.
+It's bots. And that's what I'll be talking about today.
