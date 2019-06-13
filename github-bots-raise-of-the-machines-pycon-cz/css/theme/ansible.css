@@ -76,7 +76,7 @@ mark span.hljs-string{
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #cc0000;  /* replacement candidate: #ee0000 */
+  color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
   font-family: "Open Sans", Impact, sans-serif;
   font-weight: bold;
   letter-spacing: normal;
@@ -303,7 +303,7 @@ mark span.hljs-string{
 .reveal .controls {
     bottom: auto;
     top: 110px;
-    color: #cc0000;
+    color: #ad2624;
 }
 
 .title.alt .reveal .controls {
@@ -427,7 +427,7 @@ svg .a-mark{
 
 .cover .slide-background.present,
 .title.alt .slide-background.present{
-  background-color: #cc0000;  /* replacement candidate: #ee0000 */
+  background-color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
   display: block !important;
 }
 
@@ -447,7 +447,7 @@ svg .a-mark{
 .title .reveal h2,
 .title .reveal h3,
 .title .reveal h4{
-  color: #cc0000;  /* replacement candidate: #ee0000 */
+  color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
 }
 
 
