@@ -7,24 +7,24 @@
 
 Note: (1m10s‒1m22s)
 
-At some point you discover you can also react to actions
-that users perform on GitHub.
-You set up robots to help you greet first-timers
-when they submit their very first issue or a PR
+At some point you discover you can also react to actions<br>
+that users perform on GitHub.<br>
+You set up robots to help you greet first-timers<br>
+when they submit their very first issue or a PR<br>
 and thank to the merged PR authors.
 
-After all hard maintenance work you deserve to take a break.
-So you're planning a vacation.
-You even set up a robot
-informing everyone who tries to tag you
+After all hard maintenance work you deserve to take a break.<br>
+So you're planning a vacation.<br>
+You even set up a robot<br>
+informing everyone who tries to tag you<br>
 that you're not going to see that for a while.
 
-You don't worry that your temporary absence will impact the project health.
+You don't worry that your temporary absence will impact the project health.<br>
 You're now confident that those tiny chatty robots are your friends!
 
-It doesn't matter whether you closely pay attention to what's going on in your project
-or are taking some time off:
-properly set up bots will keep taking care of workflows
+It doesn't matter whether you closely pay attention to what's going on in your project<br>
+or are taking some time off:<br>
+properly set up bots will keep taking care of workflows<br>
 even while you are away.
 
 -----
@@ -42,12 +42,12 @@ even while you are away.
 
 Note: (23‒29s)
 
-When your project is way more popular than your team can handle,
-you can empower the community to participate in maintenance.
-Parts of your project can be partially or even fully managed by community maintainers
+When your project is way more popular than your team can handle,<br>
+you can empower the community to participate in maintenance.<br>
+Parts of your project can be partially or even fully managed by community maintainers<br>
 requiring zero attention from the Core team which **is** outnumbered.
 
-This is how Ansible Core operates, by the way.
+This is how Ansible Core operates, by the way.<br>
 But that's a story for another time...
 
 -----
@@ -61,11 +61,11 @@ But that's a story for another time...
 
 Note: (17‒22s)
 
-Here's a few things you can use robots for.
-They can do linting or even autoformat your code.
-They can backports Pull Requests.
-They can help orchestrate your release processes.
-And so much more,
+Here's a few things you can use robots for.<br>
+They can do linting or even autoformat your code.<br>
+They can backports Pull Requests.<br>
+They can help orchestrate your release processes.<br>
+And so much more,<br>
 their application is limited only by your imagination!
 
 -----
@@ -80,8 +80,8 @@ their application is limited only by your imagination!
 Note: (11‒12s)
 
 Now,
-let's take a look at what GitHub ecosystem actually has to offer us!
-We are interested in GitHub Apps, in particular,
+let's take a look at what GitHub ecosystem actually has to offer us!<br>
+We are interested in GitHub Apps, in particular,<br>
 as they provide first-class support for bots!
 
 >>>>>
@@ -95,13 +95,13 @@ as they provide first-class support for bots!
 
 Note: (37‒45s)
 
-When you install a GitHub App,
-first, you need to select where you want to install it.
-This may be either a user account or an organization.
-The installation creates a kind of bond —
-a unique connection of the profile chosen and an App instance.
-This means that whenever you develop a GitHub App,
-it is not exclusive to a single user account or a single repository,
+When you install a GitHub App,<br>
+first, you need to select where you want to install it.<br>
+This may be either a user account or an organization.<br>
+The installation creates a kind of bond —<br>
+a unique connection of the profile chosen and an App instance.<br>
+This means that whenever you develop a GitHub App,<br>
+it is not exclusive to a single user account or a single repository,<br>
 it can be installed into more profiles without any need to be deployed separately.
 
 >>>>>
@@ -115,11 +115,11 @@ it can be installed into more profiles without any need to be deployed separatel
 
 Note: (20‒25s)
 
-GitHub Apps have advanced access control management,
-compared to other integration methods.
-App defines which privileges it needs
-and they are shown to the user who is installing it.
-It is also possible to restrict App access to only selected subset of repositories.
+GitHub Apps have advanced access control management,<br>
+compared to other integration methods.<br>
+App defines which privileges it needs<br>
+and they are shown to the user who is installing it.<br>
+It is also possible to restrict App access to only selected subset of repositories.<br>
 You don't have to expose things you don't want to!
 
 >>>>>
@@ -135,17 +135,17 @@ You don't have to expose things you don't want to!
 
 Note: (45‒55s)
 
-When using a GitHub App,
-its primary interaction method is acting "as a bot".
-When app posts things like issues,
-pull requests
-or comments,
-GitHub UI puts a `[bot]` label next to the name of the GitHub App,
-which created those.
-It is clearly distinguishable when some action was done by a GitHub App.
-An App does not require a dedicated user account to operate.
-Yet, if an App needs to perform some actions on behalf of a user,
-it should authenticate them using OAuth2 flow to be able to do so.
+When using a GitHub App,<br>
+its primary interaction method is acting "as a bot".<br>
+When app posts things like issues,<br>
+pull requests<br>
+or comments,<br>
+GitHub UI puts a `[bot]` label next to the name of the GitHub App,<br>
+which created those.<br>
+It is clearly distinguishable when some action was done by a GitHub App.<br>
+An App does not require a dedicated user account to operate.<br>
+Yet, if an App needs to perform some actions on behalf of a user,<br>
+it should authenticate them using OAuth2 flow to be able to do so.<br>
 User authentication also has a restricted privileges set attached to it.
 
 >>>>>
@@ -176,12 +176,12 @@ X-RateLimit-Reset: 1377013266
 
 Note: (20‒23s)
 
-Each GitHub App installation gets a dedicated rate limit,
-which is completely separate from other installations.
-Unlike GitHub Apps,
-OAuth tokens issued for user accounts,
-have just one overall rate limit.
-So please,
+Each GitHub App installation gets a dedicated rate limit,<br>
+which is completely separate from other installations.<br>
+Unlike GitHub Apps,<br>
+OAuth tokens issued for user accounts,<br>
+have just one overall rate limit.<br>
+So please,<br>
 stop using bot accounts in favor of proper GitHub Apps!
 
 >>>>>
@@ -195,17 +195,17 @@ stop using bot accounts in favor of proper GitHub Apps!
 
 Note: (36‒43s)
 
-Since bots are supposed to be reactive,
-they need a way to receive information happening on GitHub.
-GitHub App developer selects a number of events,
-which fit the previously chosen permissions.
-GitHub platfrom will then send events of those types,
-using webhooks.
-This technology, in essense,
-is just HTTP POST requests to the URL set in the App settings.
-Those HTTP requests contain JSON payload with event data.
-Typically, such a web app would react to those events.
-It will probably also hit GitHub APIs,
+Since bots are supposed to be reactive,<br>
+they need a way to receive information happening on GitHub.<br>
+GitHub App developer selects a number of events,<br>
+which fit the previously chosen permissions.<br>
+GitHub platfrom will then send events of those types,<br>
+using webhooks.<br>
+This technology, in essense,<br>
+is just HTTP POST requests to the URL set in the App settings.<br>
+Those HTTP requests contain JSON payload with event data.<br>
+Typically, such a web app would react to those events.<br>
+It will probably also hit GitHub APIs,<br>
 while processing those events.
 
 >>>>>
@@ -219,12 +219,12 @@ while processing those events.
 
 Note: (19‒23s)
 
-By choosing to use GitHub Apps,
-you also get access to some of the APIs,
-which are not available otherwise.
-One example of such API is Checks API,
-which has many powerful features.
-It lets you embed the results of your App activity
+By choosing to use GitHub Apps,<br>
+you also get access to some of the APIs,<br>
+which are not available otherwise.<br>
+One example of such API is Checks API,<br>
+which has many powerful features.<br>
+It lets you embed the results of your App activity<br>
 right into the GitHub UI!
 
 -----
@@ -268,18 +268,18 @@ Check Run ID: 26260651
 
 Note: (42‒51s)
 
-When GitHub first announced Checks API,
-I was very excited and wanted to try it out.
-I started looking into it and realized
-that it required a type of integration I wasn't familiar with back then —
+When GitHub first announced Checks API,<br>
+I was very excited and wanted to try it out.<br>
+I started looking into it and realized<br>
+that it required a type of integration I wasn't familiar with back then —<br>
 GitHub Apps.
-I also found out that most of CIs don't support it natively
-and wanted to work around this.
-I still wanted to be able to post my test outcomes from within CI jobs to this new shiny API.
-So I've created this CLI for publishing things to Checks API.
-It needed a few hacks with pygithub wrapper
-but I've got it working.
-And now, you can try out this API using just CLI and proper credentials.
+I also found out that most of CIs don't support it natively<br>
+and wanted to work around this.<br>
+I still wanted to be able to post my test outcomes from within CI jobs to this new shiny API.<br>
+So I've created this CLI for publishing things to Checks API.<br>
+It needed a few hacks with pygithub wrapper<br>
+but I've got it working.<br>
+And now, you can try out this API using just CLI and proper credentials.<br>
 I've never got to use it in CIs, though.
 
 >>>>>
@@ -295,12 +295,16 @@ Note: (11‒13s)
 
 Here's how the results of running that snippet look.
 
-On the left, you can see dedicated sections for GitHub Apps.
-They are called Check Suites.
-There's a number of named Check Runs under each.
-On the right, there's a content related to the selected Check.
-You can see a test outcome, a button, a picture, some Markdown-formatted
-description and an annotation.
+On the left, you can see dedicated sections for GitHub Apps.<br>
+They are called Check Suites.<br>
+There's a number of named Check Runs under each.<br>
+On the right, there's a content related to the selected Check.<br>
+You can see a test outcome,<br>
+a button,<br>
+a picture,<br>
+some Markdown-formatted description<br>
+and an annotation.
+
 You can customize all of it!
 
 >>>>>
@@ -314,7 +318,7 @@ You can customize all of it!
 
 Note: (9‒10s)
 
-Next, I've wrapped a CLI linter tool and exercised Annotations generation.
+Next, I've wrapped a CLI linter tool and exercised Annotations generation.<br>
 It's a way to attach linter messages right to the appropriate lines in diff.
 
 >>>>>
@@ -328,17 +332,16 @@ It's a way to attach linter messages right to the appropriate lines in diff.
 
 Note: (19‒20s)
 
-Alright,
+Alright,<br>
 a while back I've researched rewriting Pip's legacy PR linter integration.
 It enforces changelog fragments to be always present in Pull Requests.
 As a result,
-I wrote chronographer app which is about to be used by a few
-projects in Python ecosystem.
+I wrote chronographer app which is about to be used by a few projects in Python ecosystem.
 
 Here's how its successful outcome report looks!
 
-If a submitter has added a change fragment in their PR, this page will
-show them that everything's fine.
+If a submitter has added a change fragment in their PR,<br>
+this page will show them that everything's fine.
 
 >>>>>
 
@@ -351,9 +354,10 @@ show them that everything's fine.
 
 Note: (12‒13s)
 
-Now, look at the failure. The PR author forgot to add a change fragment.
+Now, look at the failure.<br>
+The PR author forgot to add a change fragment.
 
-This patch is going to be missed in the release changelog.
+This patch is going to be missed in the release changelog.<br>
 It's all well-visible in the UI which also has text details on what's happened.
 
 Checks API allows us to be more illustrative and improve the UX in creative ways!
@@ -380,8 +384,8 @@ Let's talk about how to write such application in general.
 </center>
 
 Note: (25‒27s)
-Essentially, GitHub App is a web application and the processing loop is
-fairly simple:
+Essentially, GitHub App is a web application<br>
+and the processing loop is fairly simple:
 * Once something happens, GitHub sends an event using HTTP POST to the
   URL we've specified when setting up the app
 * Our web-app then accepts it and invokes an event handler
@@ -413,8 +417,8 @@ Or, GitHub sending data in inconsistent format in some cases.
 
 Note: (8s)
 
-When writing GitHub Apps I'd advice avoiding creation of big monoliths,
-thinking about app structure upfront
+When writing GitHub Apps I'd advice avoiding creation of big monoliths,<br>
+thinking about app structure upfront<br>
 and checking what others did.
 
 >>>>>
@@ -429,9 +433,9 @@ and checking what others did.
 
 Note: (12‒14s)
 
-For me,
-the ideal framework should at least abstract away repeatable and low-level things.
-It should take care of the auth internally
+For me,<br>
+the ideal framework should at least abstract away repeatable and low-level things.<br>
+It should take care of the auth internally<br>
 and provide helper functions and decorators for dealing with generic tasks.
 
 >>>>>
@@ -458,14 +462,15 @@ run_app()
 ```
 
 Note: (17‒18s)
-Can the UX of developing a bot look like this?
+
+Can the UX of developing a bot look like this?<br>
 Could it be enough to have just this code snippet for a bot to react to a new comment?
 
-Yes, it's all you need to start.
-Since there was no higher-level solution I've decided to write my own.
+Yes, it's all you need to start.<br>
+Since there was no higher-level solution I've decided to write my own.<br>
 I was aiming for simplicity and it looks like I achieved something here.
 
-So hey —
+So hey —<br>
 it looks like it's getting easier to write GitHub bots in Python over time :)
 
 -----
@@ -476,10 +481,10 @@ it looks like it's getting easier to write GitHub bots in Python over time :)
 
 Note: (14‒16s)
 
-GitHub Apps are great
-but what if I told you that in some cases
-you could avoid maintaining a web-app deployment?
-It became possible with introduction of GitHub Actions last fall!
+GitHub Apps are great<br>
+but what if I told you that in some cases<br>
+you could avoid maintaining a web-app deployment?<br>
+It became possible with introduction of GitHub Actions last fall!<br>
 Let's take a closer look.
 
 >>>>>
@@ -493,14 +498,14 @@ Let's take a closer look.
 
 Note: (32‒39s)
 
-GitHub now allows to process reactions to some events within their own
-infrastructure in a containerized environment!
-It remindes me of the Serverless concept.
-Users define workflows which are directed graphs triggered by selected events.
+GitHub now allows to process reactions to some events within their own<br>
+infrastructure in a containerized environment!<br>
+It remindes me of the Serverless concept.<br>
+Users define workflows which are directed graphs triggered by selected events.<br>
 Workflows contain a tree of actions which are programs executed in Docker containers.
 
-So all we need to do
-is to put our application in such container.
+So all we need to do<br>
+is to put our application in such container.<br>
 Then, we have to teach it to read the event data and GitHub access token from within that environment.
 
 >>>>>
@@ -526,10 +531,11 @@ process_action()
 
 Note: (12‒14s)
 
-Here's how you can do it using octomachinery.
-I kept the event handler from a few slides ago.
-Just replace an entry point invocation with a different one
+Here's how you can do it using octomachinery.<br>
+I kept the event handler from a few slides ago.<br>
+Just replace an entry point invocation with a different one<br>
 and everything else will work out of the box!
+
 You can keep event handlers as is :)
 
 >>>>>
@@ -543,8 +549,8 @@ You can keep event handlers as is :)
 
 Note: (10‒11s)
 
-Here's an example of Chronographer running as an Action!
-The difference is that it uses a check suite of the GitHub Actions,
+Here's an example of Chronographer running as an Action!<br>
+The difference is that it uses a check suite of the GitHub Actions,<br>
 not GitHub App's one.
 
 You can see it on the left.
@@ -561,7 +567,7 @@ You can see it on the left.
 
 Note: (8‒10s)
 
-This feature isn't yet enabled for everyone.
+This feature isn't yet enabled for everyone.<br>
 Register here, if you want to try it out.
 
 -----
@@ -577,7 +583,10 @@ Register here, if you want to try it out.
 
 Note: (s)
 
-TODO: Add conclusions
+Always do complete automation.<br>
+Use Apps from GitHub Marketplace.<br>
+Develop your own if nothing fits.<br>
+GitHub Actions can perfectly fit in your workflow.
 
 -----
 
@@ -593,6 +602,7 @@ TODO: Add conclusions
 * https://github.com/features/actions/signup
 
 Note: (3‒4s)
+
 Here's some resources you can check out to learn more!
 
 -----
@@ -608,5 +618,8 @@ Sviatoslav Sydorenko<br>
 <!-- .slide: data-state="alt title" -->
 
 Note: (3‒5s)
-It's all for today. Thanks you for comming :)
+
+It's all for today.<br>
+Thanks you for comming :)
+
 Now, it's time for questions!
