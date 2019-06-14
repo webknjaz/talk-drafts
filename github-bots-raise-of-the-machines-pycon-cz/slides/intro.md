@@ -8,7 +8,7 @@
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (51s‒01m02s)
+Note: (55s)
 
 We'll start with a few stories.
 
