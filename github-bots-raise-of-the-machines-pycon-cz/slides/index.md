@@ -623,6 +623,6 @@ Sviatoslav Sydorenko<br>
 Note: (4s)
 
 It's all for today.<br>
-Thanks you for comming :)
+Thank you for comming :)
 
 Now, it's time for questions!
