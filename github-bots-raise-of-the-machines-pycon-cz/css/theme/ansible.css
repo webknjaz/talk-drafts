@@ -600,3 +600,9 @@ svg .a-mark{
   }
 }
 */
+
+.reveal.paused .pause-overlay {
+  background-image: url('../../img/pycon19-logo.a13af6437f36.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
