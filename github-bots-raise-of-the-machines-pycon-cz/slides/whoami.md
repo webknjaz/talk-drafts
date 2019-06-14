@@ -11,8 +11,9 @@
 &nbsp;<!-- hack to keep center contents parsed as markdown -->
 
 Note: (9‒10s)
-Oh, and a word about me.
-I'm Sviat. I work for Red Hat and maintain a few open source projects in
+Oh, and a word about me.<br>
+I'm Sviat.<br>
+I work for Red Hat and maintain a few open source projects in
 Python.
 
 Now, let's begin!

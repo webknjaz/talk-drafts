@@ -8,12 +8,12 @@
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (51s‒01m02s)
+Note: (55s)
 
 We'll start with a few stories.
 
-Imagine: you are in charge of a project.
-It's probably hosted on GitHub.
+Imagine: you are in charge of a project.<br>
+It's probably hosted on GitHub.<br>
 You and your co-maintainers
 have to keep it in a good healthy shape.
 
@@ -25,14 +25,14 @@ on a regular basis. Like:
 - writing docs
 - and so on.
 
-You also want to safely evolve the project
-so you've got a CI.
+You also want to safely evolve the project<br>
+so you've got a CI.<br>
 It runs your test suite across various supported envs.
 
 Is it enough, though?
 
-Your project becomes bigger
-and the volume of routines
+Your project becomes bigger<br>
+and the volume of routines<br>
 is getting unbearable...
 
 Where's all the fun gone?

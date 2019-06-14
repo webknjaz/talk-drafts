@@ -5,26 +5,26 @@
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (1m10s‒1m22s)
+Note: (1m06s)
 
-At some point you discover you can also react to actions
-that users perform on GitHub.
-You set up robots to help you greet first-timers
-when they submit their very first issue or a PR
+At some point you discover you can also react to actions<br>
+that users perform on GitHub.<br>
+You set up robots to help you greet first-timers<br>
+when they submit their very first issue or a PR<br>
 and thank to the merged PR authors.
 
-After all hard maintenance work you deserve to take a break.
-So you're planning a vacation.
-You even set up a robot
-informing everyone who tries to tag you
+After all hard maintenance work you deserve to take a break.<br>
+So you're planning a vacation.<br>
+You even set up a robot<br>
+informing everyone who tries to tag you<br>
 that you're not going to see that for a while.
 
-You don't worry that your temporary absence will impact the project health.
+You don't worry that your temporary absence will impact the project health.<br>
 You're now confident that those tiny chatty robots are your friends!
 
-It doesn't matter whether you closely pay attention to what's going on in your project
-or are taking some time off:
-properly set up bots will keep taking care of workflows
+It doesn't matter whether you closely pay attention to what's going on in your project<br>
+or are taking some time off:<br>
+properly set up bots will keep taking care of workflows<br>
 even while you are away.
 
 -----
@@ -40,14 +40,14 @@ even while you are away.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (23‒29s)
+Note: (26s)
 
-When your project is way more popular than your team can handle,
-you can empower the community to participate in maintenance.
-Parts of your project can be partially or even fully managed by community maintainers
+When your project is way more popular than your team can handle,<br>
+you can empower the community to participate in maintenance.<br>
+Parts of your project can be partially or even fully managed by community maintainers<br>
 requiring zero attention from the Core team which **is** outnumbered.
 
-This is how Ansible Core operates, by the way.
+This is how Ansible Core operates, by the way.<br>
 But that's a story for another time...
 
 -----
@@ -59,13 +59,13 @@ But that's a story for another time...
 * facilitating release processes
 * and much more! 🎉
 
-Note: (17‒22s)
+Note: (17s)
 
-Here's a few things you can use robots for.
-They can do linting or even autoformat your code.
-They can backports Pull Requests.
-They can help orchestrate your release processes.
-And so much more,
+Here's a few things you can use robots for.<br>
+They can do linting or even autoformat your code.<br>
+They can backport Pull Requests.<br>
+They can help orchestrate your release processes.<br>
+And so much more,<br>
 their application is limited only by your imagination!
 
 -----
@@ -77,11 +77,11 @@ their application is limited only by your imagination!
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="130%" height="720.000000pt" viewBox="0 0 1280.000000 720.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,720.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M5340 6130 c-199 -17 -205 -18 -358 -97 -79 -40 -159 -84 -176 -97 -63 -48 -225 -120 -386 -172 -194 -64 -359 -101 -657 -149 -239 -39 -308 -55 -374 -85 -26 -11 -66 -20 -96 -20 -187 -1 -828 -128 -978 -195 -29 -12 -59 -32 -66 -43 -11 -15 -31 -22 -84 -27 -257 -26 -736 -141 -850 -204 -40 -22 -68 -29 -135 -34 -47 -3 -148 -21 -225 -41 -250 -63 -436 -141 -568 -238 -60 -45 -72 -59 -109 -135 -39 -81 -40 -88 -34 -151 8 -81 30 -130 86 -200 106 -132 380 -197 663 -157 211 29 465 103 516 149 14 13 24 14 57 4 55 -15 255 -4 384 22 214 42 439 112 509 157 21 14 68 16 303 17 153 1 278 0 278 -1 0 -1 -73 -93 -163 -205 -343 -426 -431 -583 -408 -725 13 -79 24 -106 73 -169 29 -37 57 -60 89 -74 28 -11 50 -29 54 -40 11 -36 112 -146 162 -177 26 -17 75 -41 109 -54 56 -21 63 -27 90 -78 57 -110 102 -169 147 -195 80 -47 288 -126 332 -126 40 0 41 -1 73 -66 70 -141 94 -170 179 -212 135 -67 179 -80 295 -86 295 -16 620 135 754 350 45 72 85 188 88 254 l1 35 255 7 c648 18 1079 71 1452 177 143 41 295 87 348 106 25 9 90 28 145 43 93 25 115 27 320 28 121 0 228 2 238 2 28 3 56 79 67 183 5 52 10 100 10 107 0 6 9 12 20 12 21 0 20 1 41 -145 16 -118 13 -115 125 -115 l95 0 14 34 c8 19 17 61 20 93 15 149 13 143 50 143 20 0 111 -35 237 -91 336 -151 301 -142 533 -141 110 1 238 4 285 8 l86 6 24 -76 c23 -73 23 -76 6 -95 -30 -33 -29 -94 7 -386 20 -154 38 -306 42 -337 6 -50 12 -63 49 -100 23 -24 59 -74 80 -113 46 -85 149 -193 231 -241 48 -29 72 -53 120 -122 417 -599 815 -773 1275 -560 148 69 266 157 585 438 332 293 571 452 984 660 l141 70 0 146 0 146 -187 -98 c-200 -104 -428 -234 -506 -290 -26 -19 -49 -34 -50 -34 -9 0 25 145 37 159 104 124 133 166 189 279 61 121 65 133 81 255 10 71 19 156 20 190 l1 62 35 6 c19 3 42 9 51 13 12 5 45 -28 131 -131 64 -76 134 -156 157 -178 l41 -39 0 80 c0 77 -1 82 -31 110 -17 16 -44 46 -61 66 l-29 37 56 -24 c30 -14 58 -25 60 -25 3 0 5 21 5 48 l-1 47 -84 39 c-47 22 -85 42 -85 46 0 4 17 19 38 34 28 19 51 26 85 26 l47 0 0 101 0 102 -221 -8 -222 -7 6 24 c4 12 7 29 7 36 0 8 19 12 63 12 35 0 132 3 215 7 l152 6 0 851 0 851 -77 -3 c-129 -4 -150 -14 -182 -81 l-27 -58 -23 61 c-44 115 -101 226 -124 239 -35 21 -228 8 -256 -18 -21 -18 -23 -18 -50 -2 -25 14 -45 15 -165 8 -157 -10 -168 -15 -191 -95 -8 -28 -23 -118 -34 -199 -11 -82 -22 -151 -24 -154 -3 -2 -38 5 -79 16 -115 32 -340 69 -498 81 -166 13 -369 6 -564 -20 l-128 -17 -14 33 c-29 69 -16 84 77 84 33 0 49 5 53 16 9 24 7 73 -5 95 -9 18 -17 19 -67 13 l-57 -6 -13 34 c-16 46 -51 63 -128 63 -74 0 -113 -23 -129 -74 -11 -37 -15 -38 -148 -44 -55 -2 -103 -9 -110 -16 -12 -12 -13 -83 -1 -103 5 -8 42 -9 125 -5 l117 6 6 -25 c4 -14 4 -41 0 -60 -6 -31 -9 -34 -43 -34 -67 0 -354 -20 -511 -35 -287 -29 -397 -50 -636 -125 -70 -22 -145 -40 -166 -40 -21 0 -38 -4 -38 -9 0 -13 -22 -20 -155 -47 -95 -20 -495 -76 -502 -70 0 0 -10 51 -21 113 -11 61 -26 124 -34 140 -13 27 -16 28 -100 31 -65 2 -89 -1 -101 -12 -15 -15 -21 -56 -33 -208 -5 -72 -9 -88 -23 -88 -13 0 -21 24 -39 118 -37 190 -59 218 -188 233 -259 30 -355 81 -924 485 -162 116 -353 250 -425 299 l-129 89 -211 63 c-228 68 -251 71 -465 53z m5701 -1030 c150 -12 388 -51 494 -81 39 -11 77 -22 86 -25 13 -4 14 -14 7 -65 -4 -34 -10 -64 -13 -68 -2 -4 -237 -6 -521 -3 -515 4 -517 4 -536 25 -25 30 -128 174 -128 180 0 9 166 30 295 37 72 4 142 7 156 8 14 1 86 -3 160 -8z m-969 -209 l3 -59 -65 -6 c-36 -3 -139 -8 -230 -11 -191 -7 -191 -7 4 73 86 35 129 47 191 52 44 4 83 8 87 8 3 1 8 -25 10 -57z m-734 -48 l-3 -48 -40 0 c-40 0 -40 0 -43 42 -3 42 -3 42 35 46 21 2 42 4 46 5 4 1 7 -19 5 -45z m-340 -50 c-4 -23 -68 -32 -68 -9 0 14 17 23 53 25 12 1 17 -5 15 -16z m2542 -493 c0 -5 -7 -10 -15 -10 -8 0 -15 5 -15 10 0 6 7 10 15 10 8 0 15 -4 15 -10z m-325 -30 c-10 -11 -26 -20 -35 -20 -9 0 -25 9 -35 20 -18 20 -17 20 35 20 52 0 53 0 35 -20z m-346 -14 l22 -24 -180 -7 c-98 -4 -184 -4 -190 -1 -6 4 -11 16 -11 26 0 18 10 20 118 23 64 1 140 4 168 5 42 2 54 -2 73 -22z m1609 -105 c-15 -5 -21 7 -13 26 7 17 8 17 15 -2 4 -11 3 -22 -2 -24z m-3775 -1 c-4 -5 -93 -11 -198 -14 -196 -5 -167 2 85 22 106 8 129 6 113 -8z m1993 -536 c-3 -9 -6 -24 -6 -35 0 -17 -8 -19 -71 -19 -69 0 -71 1 -65 23 3 12 6 28 6 35 0 8 21 12 71 12 61 0 70 -2 65 -16z m-1090 -49 c4 -14 3 -29 0 -33 -4 -3 -54 -8 -111 -10 l-105 -4 -10 27 c-6 15 -8 31 -4 36 3 5 54 9 114 9 109 0 110 0 116 -25z m-423 -18 c5 -16 7 -30 5 -33 -3 -2 -122 -5 -264 -7 -256 -2 -260 -2 -319 23 l-60 25 70 3 c584 25 556 25 568 -11z m451 -267 c11 -84 6 -80 122 -80 99 0 105 1 113 23 7 18 10 12 16 -33 4 -30 14 -65 22 -78 13 -22 20 -23 95 -20 l81 3 12 -75 c7 -41 18 -127 24 -190 22 -210 32 -259 59 -291 30 -36 81 -59 133 -59 38 0 39 0 74 -77 20 -43 45 -88 57 -100 27 -29 79 -39 118 -23 37 15 92 100 120 186 l21 61 52 7 c107 12 101 16 121 -76 10 -46 33 -137 52 -203 30 -100 41 -125 67 -147 18 -15 38 -28 45 -28 6 0 12 -3 12 -8 0 -13 -209 -62 -315 -73 -248 -27 -608 35 -813 140 -52 27 -78 79 -74 151 3 49 -2 71 -38 156 -88 204 -146 405 -175 592 -15 104 -42 151 -100 179 -30 14 -82 93 -69 106 2 2 40 5 83 6 l78 2 7 -51z m2456 -319 c0 -6 -4 -13 -10 -16 -5 -3 -10 1 -10 9 0 9 5 16 10 16 6 0 10 -4 10 -9z m-1527 -141 c3 -13 0 -20 -9 -20 -8 0 -14 10 -14 26 0 28 15 25 23 -6z m235 3 c3 -21 0 -23 -47 -23 -28 0 -51 4 -51 9 0 5 -3 17 -6 26 -6 14 1 16 47 13 47 -3 54 -6 57 -25z m-228 -299 c0 -18 -54 -123 -60 -119 -5 3 -15 25 -23 49 -15 43 -15 45 6 60 22 15 77 22 77 10z m1150 -452 c0 -8 -138 -134 -300 -273 -279 -242 -517 -348 -755 -336 -67 3 -122 12 -165 27 -76 27 -195 108 -261 177 -67 71 -111 125 -106 129 2 3 26 0 53 -7 111 -25 306 -37 444 -28 258 19 489 85 770 223 91 44 183 83 205 87 61 9 115 10 115 1z"/></g></svg>
 </center>
 
-Note: (11‒12s)
+Note: (13s)
 
 Now,
-let's take a look at what GitHub ecosystem actually has to offer us!
-We are interested in GitHub Apps, in particular,
+let's take a look at what GitHub ecosystem actually has to offer us!<br>
+We are interested in GitHub Apps, in particular,<br>
 as they provide first-class support for bots!
 
 >>>>>
@@ -93,15 +93,15 @@ as they provide first-class support for bots!
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (37‒45s)
+Note: (36s)
 
-When you install a GitHub App,
-first, you need to select where you want to install it.
-This may be either a user account or an organization.
-The installation creates a kind of bond —
-a unique connection of the profile chosen and an App instance.
-This means that whenever you develop a GitHub App,
-it is not exclusive to a single user account or a single repository,
+When you install a GitHub App,<br>
+first, you need to select where you want to install it.<br>
+This may be either a user account or an organization.<br>
+The installation creates a kind of bond —<br>
+a unique connection of the profile chosen and an App instance.<br>
+This means that whenever you develop a GitHub App,<br>
+it is not exclusive to a single user account or a single repository,<br>
 it can be installed into more profiles without any need to be deployed separately.
 
 >>>>>
@@ -113,13 +113,13 @@ it can be installed into more profiles without any need to be deployed separatel
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (20‒25s)
+Note: (23s)
 
-GitHub Apps have advanced access control management,
-compared to other integration methods.
-App defines which privileges it needs
-and they are shown to the user who is installing it.
-It is also possible to restrict App access to only selected subset of repositories.
+GitHub Apps have advanced access control management,<br>
+compared to other integration methods.<br>
+App defines which privileges it needs<br>
+and they are shown to the user who is installing it.<br>
+It is also possible to restrict App access to only selected subset of repositories.<br>
 You don't have to expose things you don't want to!
 
 >>>>>
@@ -133,19 +133,19 @@ You don't have to expose things you don't want to!
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (45‒55s)
+Note: (51s)
 
-When using a GitHub App,
-its primary interaction method is acting "as a bot".
-When app posts things like issues,
-pull requests
-or comments,
-GitHub UI puts a `[bot]` label next to the name of the GitHub App,
-which created those.
-It is clearly distinguishable when some action was done by a GitHub App.
-An App does not require a dedicated user account to operate.
-Yet, if an App needs to perform some actions on behalf of a user,
-it should authenticate them using OAuth2 flow to be able to do so.
+When using a GitHub App,<br>
+its primary interaction method is acting "as a bot".<br>
+When app posts things like issues,<br>
+pull requests<br>
+or comments,<br>
+GitHub UI puts a `[bot]` label next to the name of the GitHub App,<br>
+which created those.<br>
+It is clearly distinguishable when some action was done by a GitHub App.<br>
+An App does not require a dedicated user account to operate.<br>
+Yet, if an App needs to perform some actions on behalf of a user,<br>
+it should authenticate them using OAuth2 flow to be able to do so.<br>
 User authentication also has a restricted privileges set attached to it.
 
 >>>>>
@@ -174,14 +174,14 @@ X-RateLimit-Reset: 1377013266
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (20‒23s)
+Note: (20s)
 
-Each GitHub App installation gets a dedicated rate limit,
-which is completely separate from other installations.
-Unlike GitHub Apps,
-OAuth tokens issued for user accounts,
-have just one overall rate limit.
-So please,
+Each GitHub App installation gets a dedicated rate limit,<br>
+which is completely separate from other installations.<br>
+Unlike GitHub Apps,<br>
+OAuth tokens issued for user accounts,<br>
+have just one overall rate limit.<br>
+So please,<br>
 stop using bot accounts in favor of proper GitHub Apps!
 
 >>>>>
@@ -193,19 +193,19 @@ stop using bot accounts in favor of proper GitHub Apps!
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (36‒43s)
+Note: (41s)
 
-Since bots are supposed to be reactive,
-they need a way to receive information happening on GitHub.
-GitHub App developer selects a number of events,
-which fit the previously chosen permissions.
-GitHub platfrom will then send events of those types,
-using webhooks.
-This technology, in essense,
-is just HTTP POST requests to the URL set in the App settings.
-Those HTTP requests contain JSON payload with event data.
-Typically, such a web app would react to those events.
-It will probably also hit GitHub APIs,
+Since bots are supposed to be reactive,<br>
+they need a way to know what's happening on GitHub.<br>
+GitHub App developer selects a number of events,<br>
+which fit the previously chosen permissions.<br>
+GitHub platfrom will then send events of those types,<br>
+using webhooks.<br>
+This technology, in essense,<br>
+is just HTTP POST requests to the URL set in the App settings.<br>
+Those HTTP requests contain JSON payload with event data.<br>
+Typically, such a web app would react to those events.<br>
+It will probably also hit GitHub APIs,<br>
 while processing those events.
 
 >>>>>
@@ -217,14 +217,14 @@ while processing those events.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (19‒23s)
+Note: (21s)
 
-By choosing to use GitHub Apps,
-you also get access to some of the APIs,
-which are not available otherwise.
-One example of such API is Checks API,
-which has many powerful features.
-It lets you embed the results of your App activity
+By choosing to use GitHub Apps,<br>
+you also get access to some of the APIs,<br>
+which are not available otherwise.<br>
+One example of such API is Checks API,<br>
+which has many powerful features.<br>
+It lets you embed the results of your App activity<br>
 right into the GitHub UI!
 
 -----
@@ -236,7 +236,7 @@ right into the GitHub UI!
 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="130%" height="720.000000pt" viewBox="0 0 1280.000000 720.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,720.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"><path d="M5340 6130 c-199 -17 -205 -18 -358 -97 -79 -40 -159 -84 -176 -97 -63 -48 -225 -120 -386 -172 -194 -64 -359 -101 -657 -149 -239 -39 -308 -55 -374 -85 -26 -11 -66 -20 -96 -20 -187 -1 -828 -128 -978 -195 -29 -12 -59 -32 -66 -43 -11 -15 -31 -22 -84 -27 -257 -26 -736 -141 -850 -204 -40 -22 -68 -29 -135 -34 -47 -3 -148 -21 -225 -41 -250 -63 -436 -141 -568 -238 -60 -45 -72 -59 -109 -135 -39 -81 -40 -88 -34 -151 8 -81 30 -130 86 -200 106 -132 380 -197 663 -157 211 29 465 103 516 149 14 13 24 14 57 4 55 -15 255 -4 384 22 214 42 439 112 509 157 21 14 68 16 303 17 153 1 278 0 278 -1 0 -1 -73 -93 -163 -205 -343 -426 -431 -583 -408 -725 13 -79 24 -106 73 -169 29 -37 57 -60 89 -74 28 -11 50 -29 54 -40 11 -36 112 -146 162 -177 26 -17 75 -41 109 -54 56 -21 63 -27 90 -78 57 -110 102 -169 147 -195 80 -47 288 -126 332 -126 40 0 41 -1 73 -66 70 -141 94 -170 179 -212 135 -67 179 -80 295 -86 295 -16 620 135 754 350 45 72 85 188 88 254 l1 35 255 7 c648 18 1079 71 1452 177 143 41 295 87 348 106 25 9 90 28 145 43 93 25 115 27 320 28 121 0 228 2 238 2 28 3 56 79 67 183 5 52 10 100 10 107 0 6 9 12 20 12 21 0 20 1 41 -145 16 -118 13 -115 125 -115 l95 0 14 34 c8 19 17 61 20 93 15 149 13 143 50 143 20 0 111 -35 237 -91 336 -151 301 -142 533 -141 110 1 238 4 285 8 l86 6 24 -76 c23 -73 23 -76 6 -95 -30 -33 -29 -94 7 -386 20 -154 38 -306 42 -337 6 -50 12 -63 49 -100 23 -24 59 -74 80 -113 46 -85 149 -193 231 -241 48 -29 72 -53 120 -122 417 -599 815 -773 1275 -560 148 69 266 157 585 438 332 293 571 452 984 660 l141 70 0 146 0 146 -187 -98 c-200 -104 -428 -234 -506 -290 -26 -19 -49 -34 -50 -34 -9 0 25 145 37 159 104 124 133 166 189 279 61 121 65 133 81 255 10 71 19 156 20 190 l1 62 35 6 c19 3 42 9 51 13 12 5 45 -28 131 -131 64 -76 134 -156 157 -178 l41 -39 0 80 c0 77 -1 82 -31 110 -17 16 -44 46 -61 66 l-29 37 56 -24 c30 -14 58 -25 60 -25 3 0 5 21 5 48 l-1 47 -84 39 c-47 22 -85 42 -85 46 0 4 17 19 38 34 28 19 51 26 85 26 l47 0 0 101 0 102 -221 -8 -222 -7 6 24 c4 12 7 29 7 36 0 8 19 12 63 12 35 0 132 3 215 7 l152 6 0 851 0 851 -77 -3 c-129 -4 -150 -14 -182 -81 l-27 -58 -23 61 c-44 115 -101 226 -124 239 -35 21 -228 8 -256 -18 -21 -18 -23 -18 -50 -2 -25 14 -45 15 -165 8 -157 -10 -168 -15 -191 -95 -8 -28 -23 -118 -34 -199 -11 -82 -22 -151 -24 -154 -3 -2 -38 5 -79 16 -115 32 -340 69 -498 81 -166 13 -369 6 -564 -20 l-128 -17 -14 33 c-29 69 -16 84 77 84 33 0 49 5 53 16 9 24 7 73 -5 95 -9 18 -17 19 -67 13 l-57 -6 -13 34 c-16 46 -51 63 -128 63 -74 0 -113 -23 -129 -74 -11 -37 -15 -38 -148 -44 -55 -2 -103 -9 -110 -16 -12 -12 -13 -83 -1 -103 5 -8 42 -9 125 -5 l117 6 6 -25 c4 -14 4 -41 0 -60 -6 -31 -9 -34 -43 -34 -67 0 -354 -20 -511 -35 -287 -29 -397 -50 -636 -125 -70 -22 -145 -40 -166 -40 -21 0 -38 -4 -38 -9 0 -13 -22 -20 -155 -47 -95 -20 -495 -76 -502 -70 0 0 -10 51 -21 113 -11 61 -26 124 -34 140 -13 27 -16 28 -100 31 -65 2 -89 -1 -101 -12 -15 -15 -21 -56 -33 -208 -5 -72 -9 -88 -23 -88 -13 0 -21 24 -39 118 -37 190 -59 218 -188 233 -259 30 -355 81 -924 485 -162 116 -353 250 -425 299 l-129 89 -211 63 c-228 68 -251 71 -465 53z m5701 -1030 c150 -12 388 -51 494 -81 39 -11 77 -22 86 -25 13 -4 14 -14 7 -65 -4 -34 -10 -64 -13 -68 -2 -4 -237 -6 -521 -3 -515 4 -517 4 -536 25 -25 30 -128 174 -128 180 0 9 166 30 295 37 72 4 142 7 156 8 14 1 86 -3 160 -8z m-969 -209 l3 -59 -65 -6 c-36 -3 -139 -8 -230 -11 -191 -7 -191 -7 4 73 86 35 129 47 191 52 44 4 83 8 87 8 3 1 8 -25 10 -57z m-734 -48 l-3 -48 -40 0 c-40 0 -40 0 -43 42 -3 42 -3 42 35 46 21 2 42 4 46 5 4 1 7 -19 5 -45z m-340 -50 c-4 -23 -68 -32 -68 -9 0 14 17 23 53 25 12 1 17 -5 15 -16z m2542 -493 c0 -5 -7 -10 -15 -10 -8 0 -15 5 -15 10 0 6 7 10 15 10 8 0 15 -4 15 -10z m-325 -30 c-10 -11 -26 -20 -35 -20 -9 0 -25 9 -35 20 -18 20 -17 20 35 20 52 0 53 0 35 -20z m-346 -14 l22 -24 -180 -7 c-98 -4 -184 -4 -190 -1 -6 4 -11 16 -11 26 0 18 10 20 118 23 64 1 140 4 168 5 42 2 54 -2 73 -22z m1609 -105 c-15 -5 -21 7 -13 26 7 17 8 17 15 -2 4 -11 3 -22 -2 -24z m-3775 -1 c-4 -5 -93 -11 -198 -14 -196 -5 -167 2 85 22 106 8 129 6 113 -8z m1993 -536 c-3 -9 -6 -24 -6 -35 0 -17 -8 -19 -71 -19 -69 0 -71 1 -65 23 3 12 6 28 6 35 0 8 21 12 71 12 61 0 70 -2 65 -16z m-1090 -49 c4 -14 3 -29 0 -33 -4 -3 -54 -8 -111 -10 l-105 -4 -10 27 c-6 15 -8 31 -4 36 3 5 54 9 114 9 109 0 110 0 116 -25z m-423 -18 c5 -16 7 -30 5 -33 -3 -2 -122 -5 -264 -7 -256 -2 -260 -2 -319 23 l-60 25 70 3 c584 25 556 25 568 -11z m451 -267 c11 -84 6 -80 122 -80 99 0 105 1 113 23 7 18 10 12 16 -33 4 -30 14 -65 22 -78 13 -22 20 -23 95 -20 l81 3 12 -75 c7 -41 18 -127 24 -190 22 -210 32 -259 59 -291 30 -36 81 -59 133 -59 38 0 39 0 74 -77 20 -43 45 -88 57 -100 27 -29 79 -39 118 -23 37 15 92 100 120 186 l21 61 52 7 c107 12 101 16 121 -76 10 -46 33 -137 52 -203 30 -100 41 -125 67 -147 18 -15 38 -28 45 -28 6 0 12 -3 12 -8 0 -13 -209 -62 -315 -73 -248 -27 -608 35 -813 140 -52 27 -78 79 -74 151 3 49 -2 71 -38 156 -88 204 -146 405 -175 592 -15 104 -42 151 -100 179 -30 14 -82 93 -69 106 2 2 40 5 83 6 l78 2 7 -51z m2456 -319 c0 -6 -4 -13 -10 -16 -5 -3 -10 1 -10 9 0 9 5 16 10 16 6 0 10 -4 10 -9z m-1527 -141 c3 -13 0 -20 -9 -20 -8 0 -14 10 -14 26 0 28 15 25 23 -6z m235 3 c3 -21 0 -23 -47 -23 -28 0 -51 4 -51 9 0 5 -3 17 -6 26 -6 14 1 16 47 13 47 -3 54 -6 57 -25z m-228 -299 c0 -18 -54 -123 -60 -119 -5 3 -15 25 -23 49 -15 43 -15 45 6 60 22 15 77 22 77 10z m1150 -452 c0 -8 -138 -134 -300 -273 -279 -242 -517 -348 -755 -336 -67 3 -122 12 -165 27 -76 27 -195 108 -261 177 -67 71 -111 125 -106 129 2 3 26 0 53 -7 111 -25 306 -37 444 -28 258 19 489 85 770 223 91 44 183 83 205 87 61 9 115 10 115 1z"/></g></svg>
 </center>
 
-Note: (4‒5s)
+Note: (5s)
 
 Let's take a look at a few examples of GitHub Apps usage.
 
@@ -266,20 +266,20 @@ Check Run ID: 26260651
 ```
 <!-- .element: class="fragment" -->
 
-Note: (42‒51s)
+Note: (57s)
 
-When GitHub first announced Checks API,
-I was very excited and wanted to try it out.
-I started looking into it and realized
-that it required a type of integration I wasn't familiar with back then —
+When GitHub first announced Checks API,<br>
+I was very excited and wanted to try it out.<br>
+I started looking into it and realized<br>
+that it required a type of integration I wasn't familiar with back then —<br>
 GitHub Apps.
-I also found out that most of CIs don't support it natively
-and wanted to work around this.
-I still wanted to be able to post my test outcomes from within CI jobs to this new shiny API.
-So I've created this CLI for publishing things to Checks API.
-It needed a few hacks with pygithub wrapper
-but I've got it working.
-And now, you can try out this API using just CLI and proper credentials.
+I also found out that most of CIs don't support it natively<br>
+and wanted to work around this.<br>
+I still wanted to be able to post my test outcomes from within CI jobs to this new shiny API.<br>
+So I've created this CLI for publishing things to Checks API.<br>
+It needed a few hacks with pygithub wrapper<br>
+but I've got it working.<br>
+And now, you can try out this API using just CLI and proper credentials.<br>
 I've never got to use it in CIs, though.
 
 >>>>>
@@ -291,16 +291,20 @@ I've never got to use it in CIs, though.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (11‒13s)
+Note: (30s)
 
 Here's how the results of running that snippet look.
 
-On the left, you can see dedicated sections for GitHub Apps.
-They are called Check Suites.
-There's a number of named Check Runs under each.
-On the right, there's a content related to the selected Check.
-You can see a test outcome, a button, a picture, some Markdown-formatted
-description and an annotation.
+On the left, you can see dedicated sections for GitHub Apps.<br>
+They are called Check Suites.<br>
+There's a number of named Check Runs under each.<br>
+On the right, there's a content related to the selected Check.<br>
+You can see a test outcome,<br>
+a button,<br>
+a picture,<br>
+some Markdown-formatted description<br>
+and an annotation.
+
 You can customize all of it!
 
 >>>>>
@@ -312,9 +316,9 @@ You can customize all of it!
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (9‒10s)
+Note: (10s)
 
-Next, I've wrapped a CLI linter tool and exercised Annotations generation.
+Next, I've wrapped a CLI linter tool and exercised Annotations generation.<br>
 It's a way to attach linter messages right to the appropriate lines in diff.
 
 >>>>>
@@ -326,19 +330,18 @@ It's a way to attach linter messages right to the appropriate lines in diff.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (19‒20s)
+Note: (32s)
 
-Alright,
-a while back I've researched rewriting Pip's legacy PR linter integration.
-It enforces changelog fragments to be always present in Pull Requests.
-As a result,
-I wrote chronographer app which is about to be used by a few
-projects in Python ecosystem.
+Then,<br>
+a while back I've researched rewriting Pip's legacy PR linter integration.<br>
+It enforces changelog fragments to be always present in Pull Requests.<br>
+As a result,<br>
+I wrote chronographer app which is about to be used by a few projects in the Python ecosystem.
 
 Here's how its successful outcome report looks!
 
-If a submitter has added a change fragment in their PR, this page will
-show them that everything's fine.
+If a submitter has added a change fragment in their PR,<br>
+this page will show them that everything's fine.
 
 >>>>>
 
@@ -349,11 +352,12 @@ show them that everything's fine.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (12‒13s)
+Note: (32s)
 
-Now, look at the failure. The PR author forgot to add a change fragment.
+Now, look at the failure.<br>
+The PR author forgot to add a change fragment.
 
-This patch is going to be missed in the release changelog.
+This patch is going to be missed in the release changelog.<br>
 It's all well-visible in the UI which also has text details on what's happened.
 
 Checks API allows us to be more illustrative and improve the UX in creative ways!
@@ -379,9 +383,9 @@ Let's talk about how to write such application in general.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (25‒27s)
-Essentially, GitHub App is a web application and the processing loop is
-fairly simple:
+Note: (25s)
+Essentially, GitHub App is a web application<br>
+and the processing loop is fairly simple:
 * Once something happens, GitHub sends an event using HTTP POST to the
   URL we've specified when setting up the app
 * Our web-app then accepts it and invokes an event handler
@@ -395,7 +399,7 @@ fairly simple:
 * 99% of copy-paste to set up a basic web-app with routing
 * API communication mismatches
 
-Note: (14‒15s)
+Note: (16s)
 
 There's several problems I was observing with creating GitHub Apps in Python ecosystem.
 
@@ -411,10 +415,10 @@ Or, GitHub sending data in inconsistent format in some cases.
 * check out prior art
 * use high-level frameworks
 
-Note: (8s)
+Note: (10s)
 
-When writing GitHub Apps I'd advice avoiding creation of big monoliths,
-thinking about app structure upfront
+When writing GitHub Apps I'd advice avoiding creation of big monoliths,<br>
+thinking about app structure upfront<br>
 and checking what others did.
 
 >>>>>
@@ -427,11 +431,11 @@ and checking what others did.
   * JWT auth
 * Provide helpers for typical problems
 
-Note: (12‒14s)
+Note: (14s)
 
-For me,
-the ideal framework should at least abstract away repeatable and low-level things.
-It should take care of the auth internally
+For me,<br>
+the ideal framework should at least abstract away repeatable and low-level things.<br>
+It should take care of the auth internally<br>
 and provide helper functions and decorators for dealing with generic tasks.
 
 >>>>>
@@ -457,15 +461,17 @@ from octomachinery.app.server.runner import run as run_app
 run_app()
 ```
 
-Note: (17‒18s)
-Can the UX of developing a bot look like this?
-Could it be enough to have just this code snippet for a bot to react to a new comment?
+Note: (35s)
 
-Yes, it's all you need to start.
-Since there was no higher-level solution I've decided to write my own.
+Can the UX of developing a bot look like this?<br>
+Could it be enough to have just this code snippet<br>
+for a bot to react to a new comment?
+
+Yes, it's all you need to start.<br>
+Since there was no higher-level solution I've decided to write my own.<br>
 I was aiming for simplicity and it looks like I achieved something here.
 
-So hey —
+So hey —<br>
 it looks like it's getting easier to write GitHub bots in Python over time :)
 
 -----
@@ -474,12 +480,12 @@ it looks like it's getting easier to write GitHub bots in Python over time :)
 
 <!-- .slide: data-state="alt title" -->
 
-Note: (14‒16s)
+Note: (16s)
 
-GitHub Apps are great
-but what if I told you that in some cases
-you could avoid maintaining a web-app deployment?
-It became possible with introduction of GitHub Actions last fall!
+GitHub Apps are great<br>
+but what if I told you that in some cases<br>
+you could avoid maintaining a web-app deployment?<br>
+It became possible with introduction of GitHub Actions last fall!<br>
 Let's take a closer look.
 
 >>>>>
@@ -491,16 +497,16 @@ Let's take a closer look.
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (32‒39s)
+Note: (40s)
 
-GitHub now allows to process reactions to some events within their own
-infrastructure in a containerized environment!
-It remindes me of the Serverless concept.
-Users define workflows which are directed graphs triggered by selected events.
+GitHub now allows to process reactions to some events within their own<br>
+infrastructure in a containerized environment!<br>
+It remindes me of the Serverless concept.<br>
+Users define workflows which are directed graphs triggered by selected events.<br>
 Workflows contain a tree of actions which are programs executed in Docker containers.
 
-So all we need to do
-is to put our application in such container.
+So all we need to do<br>
+is to put our application in such container.<br>
 Then, we have to teach it to read the event data and GitHub access token from within that environment.
 
 >>>>>
@@ -524,12 +530,13 @@ from octomachinery.app.action.runner import run as process_action
 process_action()
 ```
 
-Note: (12‒14s)
+Note: (17s)
 
-Here's how you can do it using octomachinery.
-I kept the event handler from a few slides ago.
-Just replace an entry point invocation with a different one
+Here's how you can do it using octomachinery.<br>
+I kept the event handler from a few slides ago.<br>
+Just replace an entry point invocation with a different one<br>
 and everything else will work out of the box!
+
 You can keep event handlers as is :)
 
 >>>>>
@@ -541,10 +548,10 @@ You can keep event handlers as is :)
 <!-- .element: style="border: none;" -->
 </center>
 
-Note: (10‒11s)
+Note: (13s)
 
-Here's an example of Chronographer running as an Action!
-The difference is that it uses a check suite of the GitHub Actions,
+Here's an example of Chronographer running as an Action!<br>
+The difference is that it uses a check suite of the GitHub Actions,<br>
 not GitHub App's one.
 
 You can see it on the left.
@@ -559,9 +566,9 @@ You can see it on the left.
 </center>
 &nbsp;
 
-Note: (8‒10s)
+Note: (6s)
 
-This feature isn't yet enabled for everyone.
+This feature isn't yet enabled for everyone.<br>
 Register here, if you want to try it out.
 
 -----
@@ -575,9 +582,14 @@ Register here, if you want to try it out.
 
 <!-- .#slide: data-state="alt title" -->
 
-Note: (s)
+Note: (13s)
 
-TODO: Add conclusions
+In conclusion:
+
+Always do complete automation.<br>
+Use Apps from GitHub Marketplace.<br>
+Develop your own if nothing fits.<br>
+GitHub Actions often can perfectly fit in your workflow.
 
 -----
 
@@ -592,7 +604,8 @@ TODO: Add conclusions
 * https://developer.github.com/actions/
 * https://github.com/features/actions/signup
 
-Note: (3‒4s)
+Note: (3s)
+
 Here's some resources you can check out to learn more!
 
 -----
@@ -607,6 +620,9 @@ Sviatoslav Sydorenko<br>
 </center>
 <!-- .slide: data-state="alt title" -->
 
-Note: (3‒5s)
-It's all for today. Thanks you for comming :)
+Note: (4s)
+
+It's all for today.<br>
+Thank you for comming :)
+
 Now, it's time for questions!

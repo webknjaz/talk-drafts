@@ -7,7 +7,7 @@
 🤖 _by [@webknjaz](https://github.com/webknjaz)_
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
-Note: (10‒13s)
+Note: (13s)
 Hi everyone,
 
 It is a great pleasure for me to be here!

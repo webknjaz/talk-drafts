@@ -5,7 +5,12 @@
 <!-- .element: style="border: none;" -->
 </center>
 
-Note:
+Note: (6s)
+
+Oh,<br>
+and this is only the beginning!
+
+Let's see what happens next!
 
 >>>>>
 
@@ -16,10 +21,10 @@ Note:
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (6s)
 
-You've heard (from a friend)
-that you can automate more things.
+You've heard (from a friend)<br>
+that you can automate more things.<br>
 Sounds fun...
 
 >>>>>
@@ -31,7 +36,7 @@ Sounds fun...
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (8s)
 
 So you make your CI pipeline to also build and publish your
 software whenever a Git tag is created.
@@ -45,11 +50,13 @@ software whenever a Git tag is created.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (15s)
 
-Going further,
-you don't want to hardcode your software version in a text file.
+Going further,<br>
+you don't want to hardcode your software version in a text file.<br>
 You set up the build scripts to reuse Git tag for that.
+
+You can now relax and be happy about your little automation project.
 
 >>>>>
 
@@ -60,9 +67,9 @@ You set up the build scripts to reuse Git tag for that.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (0s)
 
-You can now relax and be happy about your little automation project.
+It.
 
 >>>>>
 
@@ -73,7 +80,9 @@ You can now relax and be happy about your little automation project.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (0s)
+
+Just.
 
 >>>>>
 
@@ -84,6 +93,10 @@ Note:
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
+Note: (1s)
+
+Works!
+
 >>>>>
 
 <!-- .slide: data-transition="fade-in fade-out" -->
@@ -93,7 +106,7 @@ Note:
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (2s)
 
 Your job here is done!
 
@@ -106,19 +119,19 @@ Your job here is done!
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (29s)
 
-One day,
-you integrate a change log generator tool —
-Towncrier.
-Now,
-your release workflow became a bit more complicated.
-Everyone, who submits a Pull Request,
-has to to additionally include a change note.
-And now, to do a release,
-maintainers should first
-manually run Towncrier to create a changelog,
-then commit the results
+One day,<br>
+you integrate a change log generator tool —<br>
+Towncrier.<br>
+Now,<br>
+your release workflow became a bit more complicated.<br>
+Everyone, who submits a Pull Request,<br>
+has to additionally include a change note.<br>
+And now, to do a release,<br>
+maintainers should first<br>
+manually run Towncrier to create a changelog,<br>
+then commit the results<br>
 and finally push a Git tag.
 
 >>>>>
@@ -130,10 +143,10 @@ and finally push a Git tag.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (8s)
 
-Next day,
-another maintainer pushes a new tag.
+Next day,<br>
+another maintainer pushes a new tag.<br>
 But he doesn't know about the new release instuctions, yet.
 
 >>>>>
@@ -145,7 +158,7 @@ But he doesn't know about the new release instuctions, yet.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (2s)
 
 You notice it!
 
@@ -158,13 +171,13 @@ You notice it!
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (15s)
 
-You open your CI/CD!
-and try chasing that job which builds and publishes your software!
+You open your CI/CD!<br>
+and try chasing that job which builds and publishes your software!<br>
 It's about to release an artifact without a changelog!
 
-Maybe you are lucky
+Maybe you are lucky<br>
 and you've got to be faster than the automation.
 
 >>>>>
@@ -176,11 +189,11 @@ and you've got to be faster than the automation.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (15s)
 
-You cancel that job.
-You won this race and started quickily cleaning up the mess.
-You hope nobody noticed that embarrassing tag in the Git tree!
+You cancel that job.<br>
+You won this race and started quickily cleaning up the mess.<br>
+You hope nobody noticed that embarrassing tag in the Git tree!<br>
 Phew...! That was close!
 
 >>>>>
@@ -192,10 +205,10 @@ Phew...! That was close!
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (7s)
 
-But maybe not.
-Maybe the automation got faster than you and published that
+But maybe not.<br>
+Maybe the automation got faster than you and published that<br>
 incomplete artifact.
 
 >>>>>
@@ -207,14 +220,14 @@ incomplete artifact.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (17s)
 
-Oops!
+Oops!<br>
 You'll have to do things properly now and publish a post-release.
 
-By now, you must've realized
-that incomplete automation may be misleading.
-It can probably be more harmful to have incomplete automation
+By now, you must've realized<br>
+that incomplete automation may be misleading.<br>
+It can probably be more harmful to have incomplete automation<br>
 than not to have it at all.
 
 >>>>>
@@ -226,7 +239,7 @@ than not to have it at all.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (6s)
 
 Partial automation of multi-step processes is still quite
 vulnerable to human errors.
@@ -240,6 +253,11 @@ vulnerable to human errors.
 <!-- .element: style="border: none; box-shadow: none;" -->
 </center>
 
-Note:
+Note: (17s)
+
+Having more than one step for triggering a pipeline is fragile.
 
 Automate all parts of your workflow so that nothing would be forgotten!
+
+Keep your triggers simple.<br>
+There should be one-- and preferably only one --obvious way to do it.
