@@ -34,7 +34,7 @@ mark span.hljs-string{
 }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
+  font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif;
   font-size: 28px;
   font-weight: normal;
   color: #555;
@@ -77,7 +77,7 @@ mark span.hljs-string{
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
-  font-family: "Open Sans", Impact, sans-serif;
+  font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", Impact, sans-serif;
   font-weight: bold;
   letter-spacing: normal;
   text-transform: none;
@@ -547,7 +547,7 @@ svg .a-mark{
   .reveal ol,
   .reveal li,
   .reveal blockquote{
-    font-family: "Open Sans", sans-serif !important;
+    font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif !important;
     color: #000 !important;
   }
   
@@ -605,4 +605,11 @@ svg .a-mark{
   background-image: url('../../img/pycon19-logo.a13af6437f36.svg');
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.cover .reveal,
+.cover .reveal *,
+.title.alt .reveal,
+.title.alt .reveal * {
+  font-family: "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif;
 }
