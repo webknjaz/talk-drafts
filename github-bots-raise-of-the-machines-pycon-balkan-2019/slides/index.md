@@ -616,7 +616,7 @@ Here's some resources you can check out to learn more!
 Sviatoslav Sydorenko<br>
 <!--[@webknjaz](https://github.com/webknjaz) 🇺🇦<br-->
 @webknjaz 🇺🇦<br>
-2019, PyCon CZ 🇨🇿
+2019, PyCon Balkan 🇷🇸
 </center>
 <!-- .slide: data-state="alt title" -->
 
