@@ -1,0 +1,7 @@
+Note left of Bot: Is pre-authenticated\nas an Installation
+GitHub -> Bot: (webhook) Hey Bot, The Event happened
+Note left of Bot: Bot verifies the event
+Bot-->GitHub: Great, thanks!
+Note left of Bot: Bot runs the appropriate event handler
+Note left of Bot: Bot executes its logic
+Bot -> GitHub: Hey, please do this action.

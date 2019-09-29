@@ -1,0 +1,8 @@
+script: echo No build step present yet
+deploy:
+  provider: pages
+  github-token:
+    secure: >-
+      {{ VALUE_TO_REPLACE }}
+  on:
+    branch: master

@@ -242,7 +242,7 @@ Let's take a look at a few examples of GitHub Apps usage.
 
 >>>>>
 
-## check-in: CLI for hitting Checks API 🖳
+## check-in: CLI for hitting Checks API 💻
 
 ```
 $ pip install check-in
@@ -284,7 +284,7 @@ I've never got to use it in CIs, though.
 
 >>>>>
 
-## check-in: Checks Page 🖳
+## check-in: Checks Page 💻
 
 <center>
 ![](img/checks-api-check-in.png)
@@ -616,7 +616,7 @@ Here's some resources you can check out to learn more!
 Sviatoslav Sydorenko<br>
 <!--[@webknjaz](https://github.com/webknjaz) 🇺🇦<br-->
 @webknjaz 🇺🇦<br>
-2019, PyCon CZ 🇨🇿
+2019, PyCon Balkan 🇷🇸
 </center>
 <!-- .slide: data-state="alt title" -->
 
