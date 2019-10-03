@@ -576,7 +576,8 @@ You can see it on the left.
 Note: (6s)
 
 This feature isn't yet enabled for everyone.<br>
-Register here, if you want to try it out.
+Register here, if you want to try it out.<br>
+You'll get access immediatelly.
 
 -----
 
