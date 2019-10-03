@@ -600,7 +600,7 @@ Register here, if you want to try it out.
 # Key takeaways
 
 * Automate all the things: partial automation is harmful
-* GitHub has a variety of Apps in the Marketplace
+* GitHub has a variety of Apps and Actions in the Marketplace,
   and you can write your own
 * GitHub Actions are like Lego for your CI: make your custom workflow
 
