@@ -300,7 +300,7 @@ I've never got to use it in CIs, though.
 
 Note: (30s)
 
-Here's how the results of running that snippet look.
+Look! You can use it to put kittens on GitHub!
 
 On the left, you can see dedicated sections for GitHub Apps.<br>
 They are called Check Suites.<br>
