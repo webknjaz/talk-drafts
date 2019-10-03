@@ -70,6 +70,30 @@ their application is limited only by your imagination!
 
 -----
 
+## The Future Is Now
+
+<center>
+![](img/robots-talking-on-gh.jpg)
+<!-- .element: style="border: none;" -->
+<em>(https://twitter.com/gabro27/status/1173547934132178944)</em>
+</center>
+
+Note: (48s)
+
+Look at this!<br>
+Three!!! Three(!) bots cooperate on GitHub<br>
+in order to address a security vulnerability.<br>
+The first one watches the dependency updates and CVEs.<br>
+Once some security issue's been fixed,<br>
+it sends a PR updating the dependency.<br>
+The CI checks it and another bot does the merge.<br>
+Oh, and look at **this**!<br>
+There's a third bot that celebrates the fix with a GIF picture!
+
+Isn't it the future we are looking for?
+
+-----
+
 # GitHub Apps to the rescue! 🤖
 
 <!-- .slide: data-state="alt title" -->
