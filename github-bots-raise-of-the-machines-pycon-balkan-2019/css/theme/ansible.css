@@ -602,7 +602,8 @@ svg .a-mark{
 */
 
 .reveal.paused .pause-overlay {
-  background-image: url('../../img/pycon19-logo.a13af6437f36.svg');
+  background-color: #31383A;
+  background-image: url('../../img/pycon-logo-white.svg');
   background-position: center;
   background-repeat: no-repeat;
 }

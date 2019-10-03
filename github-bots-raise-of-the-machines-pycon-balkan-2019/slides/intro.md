@@ -17,6 +17,13 @@ It's probably hosted on GitHub.<br>
 You and your co-maintainers
 have to keep it in a good healthy shape.
 
+**Now, what is it that maintainers do?**
+
+A maintainer is a person
+who takes care of a project.
+They accept other people's patches,
+release new versions etc.
+
 So you do various "workflow" activities
 on a regular basis. Like:
 - triaging new incoming issues,
