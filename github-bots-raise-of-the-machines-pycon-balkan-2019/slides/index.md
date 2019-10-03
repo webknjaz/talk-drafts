@@ -27,7 +27,7 @@ or are taking some time off:<br>
 properly set up bots will keep taking care of workflows<br>
 even while you are away.
 
------
+>>>>>
 
 ## Bots ease maintenance burden
 
@@ -50,7 +50,7 @@ requiring zero attention from the Core team which **is** outnumbered.
 This is how Ansible Core operates, by the way.<br>
 But that's a story for another time...
 
------
+>>>>>
 
 ## Other bot use-cases 🤖
 
@@ -68,7 +68,7 @@ They can help orchestrate your release processes.<br>
 And so much more,<br>
 their application is limited only by your imagination!
 
------
+>>>>>
 
 ## The Future Is Now
 
