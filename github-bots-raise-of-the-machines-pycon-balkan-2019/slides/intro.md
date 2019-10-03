@@ -10,6 +10,13 @@
 
 Note: (55s)
 
+**What is it that maintainers do?**
+
+A maintainer is a person
+who takes care of a project.
+They accept other people's patches,
+release new versions etc.
+
 We'll start with a few stories.
 
 Imagine: you are in charge of a project.<br>
