@@ -10,19 +10,19 @@
 
 Note: (55s)
 
-**What is it that maintainers do?**
-
-A maintainer is a person
-who takes care of a project.
-They accept other people's patches,
-release new versions etc.
-
 We'll start with a few stories.
 
 Imagine: you are in charge of a project.<br>
 It's probably hosted on GitHub.<br>
 You and your co-maintainers
 have to keep it in a good healthy shape.
+
+**Now, what is it that maintainers do?**
+
+A maintainer is a person
+who takes care of a project.
+They accept other people's patches,
+release new versions etc.
 
 So you do various "workflow" activities
 on a regular basis. Like:
