@@ -649,3 +649,30 @@ It's all for today.<br>
 Thank you for comming :)
 
 Now, it's time for questions!
+
+-----
+
+# Hands-on: Creating GitHub Bots 🤖 to deal with boring routines
+
+## 📅 Friday, ⏲ 09:50, 👨‍🏫 Room 2
+## 💬 Slack: `#github-apps-workshop`
+
+<!-- .slide: data-state="alt title" -->
+
+Note: (43s)
+And a final announcement.
+I'm making a workshop tomorrow.
+It's dedicated to basics of making
+bots using GitHub Apps.
+
+We'll have a walkthrough of the complete application creation and
+deployment process:
+from creating an App entity in the GitHub UI,
+to actual coding
+and to shipping your code via Heroku.
+
+If you plan to participate,<br>
+please make sure that you have Git,<br>
+Python 3.7 and a code editor on your laptop.
+
+Thank you and see you tomorrow!
