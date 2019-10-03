@@ -497,54 +497,30 @@ Let's take a closer look.
 
 >>>>>
 
-## GitHub Actions: Workflow
+## GitHub Actions: CI/CD Lego
 
 <center>
-![](img/actions-workflow.png)
-<!-- .element: style="border: none;" -->
+  ![](img/actions-log-animation.gif)
+  <!-- .element: style="border: none;" -->
+  <em>
+    <small>
+      (img src: https://techcrunch.com/2019/08/08/github-actions-is-now-a-ci-cd-service/)
+    </small>
+  </em>
 </center>
 
 Note: (40s)
 
 GitHub now allows to process reactions to some events within their own<br>
-infrastructure in a containerized environment!<br>
+infrastructure in a virtualized environment!<br>
 It remindes me of the Serverless concept.<br>
-Users define workflows which are directed graphs triggered by selected events.<br>
-Workflows contain a tree of actions which are programs executed in Docker containers.
+Users define workflows which are collections of subsequent steps triggered by selected events.<br>
+Workflow steps may contain actions which are reusable and sharable building blocks.
 
 So all we need to do<br>
-is to put our application in such container.<br>
-Then, we have to teach it to read the event data and GitHub access token from within that environment.
-
->>>>>
-
-## GitHub Actions: octomachinery 🗃
-
-```python
-...
-
-@process_event_actions('issue_comment', {'created'})
-@process_webhook_payload
-async def on_comment(*, action, issue, comment, installation, changes=None):
-
-    github_api = RUNTIME_CONTEXT.app_installation_client
-
-    await github_api.do_smth( ... )
-```
-```python
-from octomachinery.app.action.runner import run as process_action
-...
-process_action()
-```
-
-Note: (17s)
-
-Here's how you can do it using octomachinery.<br>
-I kept the event handler from a few slides ago.<br>
-Just replace an entry point invocation with a different one<br>
-and everything else will work out of the box!
-
-You can keep event handlers as is :)
+is to wrap our application into an Action.<br>
+Then, we have to teach it to read the event data
+and GitHub access token from within that environment.
 
 >>>>>
 
