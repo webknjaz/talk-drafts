@@ -272,23 +272,6 @@ Let's take a look at a few examples of GitHub Apps usage.
 $ pip install check-in
 ```
 <!-- .element: class="fragment" -->
-```
-$ cat .env
-GH_CHK_IN_APP_ID=i99999999999
-GH_CHK_IN_INSTALLATION_ID=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-GH_CHK_IN_PRIVATE_KEY_FILE=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.pem
-GH_CHK_IN_REPO_SLUG=org-name/repo-name
-```
-<!-- .element: class="fragment" -->
-```
-$ check-in --repo-slug=webknjaz/.me --name=hehe --output='{"title": "Hi there!", "summary": "Yo!", "text": "some text here", "annotations": [], "images": []}' post-check
-Check Suite ID: 1309453
-Check Run ID: 26260651
-$ check-in --repo-slug=webknjaz/.me --user-agent='New App' --name=hehe --status=queued --conclusion=failure --completed-at=2018-05-30T14:30:33Z --output='{"title": "Hi there!", "summary": "Yo!", "text": "", "annotations": [{"path": "README.md", "annotation_level": "warning", "title": "Pew checker", "message": ":art: emoji", "raw_details": "whatever :tada:", "start_line": -1, "end_line": 0}], "images": [{"image_url": "https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg", "caption": "kitty", "alt": "cat"}]}' --actions='[{"label": "Pew!", "description": "pew it", "identifier": "pew"}]' update-check --check-run-id=26260651
-Check Suite ID: 1309453
-Check Run ID: 26260651
-```
-<!-- .element: class="fragment" -->
 
 Note: (57s)
 
