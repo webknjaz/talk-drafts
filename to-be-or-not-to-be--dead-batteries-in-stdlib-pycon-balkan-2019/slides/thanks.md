@@ -1,10 +1,9 @@
-<!-- .slide: data-state="alt title" data-background="#d2c6ad" -->
+<!-- .slide: data-state="alt title" data-background="#31383A" -->
 
 # <center>Thanks to</center>
-<!-- .element: style="color: black;" -->
 
 <center>
-![PyCon CZ](img/pycon19-logo.a13af6437f36.svg)
+![PyCon CZ](img/pycon-logo-white.svg)
 <!-- .element: style="border: none; box-shadow: none; background: none;" -->
 </center>
 

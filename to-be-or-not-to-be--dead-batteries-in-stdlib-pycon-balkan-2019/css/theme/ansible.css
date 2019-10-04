@@ -602,7 +602,8 @@ svg .a-mark{
 */
 
 .reveal.paused .pause-overlay {
-  background-image: url('../../img/pycon19-logo.a13af6437f36.svg');
+  background-color: #31383A;
+  background-image: url('../../img/pycon-logo-white.svg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -611,5 +612,5 @@ svg .a-mark{
 .cover .reveal *,
 .title.alt .reveal,
 .title.alt .reveal * {
-  font-family: "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "noto color emoji";
 }
