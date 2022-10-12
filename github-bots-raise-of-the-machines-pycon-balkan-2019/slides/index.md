@@ -230,7 +230,7 @@ is just HTTP POST requests to the URL set in the App settings.<br>
 Those HTTP requests contain JSON payload with event data.<br>
 Typically, such a web app would react to those events.<br>
 It will probably also hit GitHub APIs,<br>
-while processing those events.
+while processing them.
 
 >>>>>
 
