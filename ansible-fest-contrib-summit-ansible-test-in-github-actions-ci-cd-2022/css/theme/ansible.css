@@ -211,7 +211,8 @@ mark span.hljs-string{
   position: relative;
   margin: 10px auto;
   text-align: left;
-  font-size: 0.55em;
+  /* font-size: 0.55em; */
+  font-size: 1em;
   font-family: courier, monospace;
   line-height: 1em;
   word-wrap: break-word;
