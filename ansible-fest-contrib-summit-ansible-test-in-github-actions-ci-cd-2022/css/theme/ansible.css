@@ -48,6 +48,13 @@ mark span.hljs-string{
   background-repeat: no-repeat;
 }
 
+.cover .reveal,
+.cover .reveal *,
+.title.alt .reveal ,
+.title.alt .reveal * {
+  font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "noto color emoji";
+}
+
 .reveal .slides{
   text-align: left;
 }
@@ -607,10 +614,3 @@ svg .a-mark{
   }
 }
 */
-
-.cover .reveal,
-.cover .reveal *,
-.title.alt .reveal,
-.title.alt .reveal * {
-  font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "noto color emoji";
-}
