@@ -407,7 +407,8 @@ div.ans-mark{
 }
 
 div.ans-mark .circle{
-  fill:#CC0000;
+  /* fill:#CC0000; */
+  fill: #5bbdbf;
 }
 
 .cover div.ans-mark .circle,
