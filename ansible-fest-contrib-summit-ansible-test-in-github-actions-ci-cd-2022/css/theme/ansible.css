@@ -92,7 +92,8 @@ mark span.hljs-string{
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
+  /* color: #ad2624; */  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
+  color: #414141;  /* a shade of gray */
   /* font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", Impact, sans-serif; */
   font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "segoe ui symbol", "Open Sans", Impact, sans-serif;  /* "twemoji mozilla" seems to be problematic */
   font-weight: bold;
@@ -323,7 +324,7 @@ mark span.hljs-string{
 .reveal .controls {
     bottom: auto;
     top: 110px;
-    color: #ad2624;
+    color: #5bbdbf;
 }
 
 .title.alt .reveal .controls {
@@ -453,7 +454,8 @@ svg .a-mark{
 
 .cover .slide-background.present,
 .title.alt .slide-background.present{
-  background-color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
+  /*background-color: #ad2624;*/  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
+  background-color: #444;  /* a shade of gray */
   display: block !important;
 }
 
@@ -497,7 +499,7 @@ svg .a-mark{
 }
 
 .reveal .progress span {
-  background: #ff5850;
+  background: rgb(51, 51, 51);
 }
 
 .monospace{
