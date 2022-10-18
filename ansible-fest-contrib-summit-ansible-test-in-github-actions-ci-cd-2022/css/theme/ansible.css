@@ -41,6 +41,13 @@ mark span.hljs-string{
   text-align: left;
 }
 
+.reveal.paused .pause-overlay {
+  background-color: #5bbdbf;
+  background-image: url('../../img/Ansible-Mark-RGB_White.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .reveal .slides{
   text-align: left;
 }
@@ -600,13 +607,6 @@ svg .a-mark{
   }
 }
 */
-
-.reveal.paused .pause-overlay {
-  background-color: #5bbdbf;
-  background-image: url('../../img/Ansible-Mark-RGB_White.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .cover .reveal,
 .cover .reveal *,
