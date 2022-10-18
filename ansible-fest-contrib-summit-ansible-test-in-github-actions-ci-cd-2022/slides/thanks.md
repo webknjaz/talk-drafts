@@ -1,9 +1,9 @@
-<!-- .slide: data-state="alt title" data-background="#31383A" -->
+<!-- .slide: data-state="alt title" data-background="#5bbdbf" -->
 
 # <center>Thanks to</center>
 
 <center>
-![PyCon CZ](img/pycon-logo-white.svg)
+![Ansible Contrib Summit 2022.10](img/Ansible-Mark-RGB_White.svg)
 <!-- .element: style="border: none; box-shadow: none; background: none;" -->
 </center>
 
