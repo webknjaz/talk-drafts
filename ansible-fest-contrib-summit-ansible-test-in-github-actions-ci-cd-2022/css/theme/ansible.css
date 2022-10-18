@@ -34,7 +34,8 @@ mark span.hljs-string{
 }
 
 .reveal {
-  font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif;
+  /* font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif; */
+  font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "segoe ui symbol", "Open Sans", sans-serif;  /* "twemoji mozilla" seems to be problematic */
   font-size: 28px;
   font-weight: normal;
   color: #555;
@@ -52,7 +53,8 @@ mark span.hljs-string{
 .cover .reveal *,
 .title.alt .reveal ,
 .title.alt .reveal * {
-  font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "noto color emoji";
+  /* font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "noto color emoji"; */
+  font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "segoe ui symbol", "noto color emoji";  /* "twemoji mozilla" seems to be problematic */
 }
 
 .reveal .slides{
@@ -91,7 +93,8 @@ mark span.hljs-string{
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #ad2624;  /* it's PMS 1805; old: #cc0000; replacement candidate: #ee0000 */
-  font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", Impact, sans-serif;
+  /* font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", Impact, sans-serif; */
+  font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "segoe ui symbol", "Open Sans", Impact, sans-serif;  /* "twemoji mozilla" seems to be problematic */
   font-weight: bold;
   letter-spacing: normal;
   text-transform: none;
@@ -561,7 +564,8 @@ svg .a-mark{
   .reveal ol,
   .reveal li,
   .reveal blockquote{
-    font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif !important;
+    /* font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "Open Sans", sans-serif !important; */
+    font-family: "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "segoe ui symbol", "Open Sans", sans-serif !important;  /* "twemoji mozilla" seems to be problematic */
     color: #000 !important;
   }
   
