@@ -217,6 +217,7 @@ mark span.hljs-string{
   line-height: 1em;
   word-wrap: break-word;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+  width: 100%;
   padding: 0px;
 }
 
