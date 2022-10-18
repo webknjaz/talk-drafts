@@ -416,6 +416,11 @@ div.ans-mark .circle{
   fill:#000;
 }
 
+.cover div.ans-mark,
+.reveal.paused div.ans-mark {
+  display: none;
+}
+
 svg .a-mark{
   fill:#FFFFFF;
 }
