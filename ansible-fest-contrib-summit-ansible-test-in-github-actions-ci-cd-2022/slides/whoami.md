@@ -6,8 +6,8 @@
 ## Sviatoslav Sydorenko (@webknjaz)
 
 ### Saves humans from writing bash scripts
-### (Senior Software Engineer at Ansible by Red Hat)
-### Open Source Developer, Contributor, Maintainer, Mentor
+### (Principal Software Engineer at Ansible by Red Hat)
+### FOSS Contributor, Serial Maintainer, Mentor
 </center>
 &nbsp;<!-- hack to keep center contents parsed as markdown -->
 
