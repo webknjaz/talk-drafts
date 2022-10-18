@@ -50,9 +50,9 @@ mark span.hljs-string{
 }
 
 .cover .reveal,
-.cover .reveal *,
-.title.alt .reveal ,
-.title.alt .reveal * {
+/* .cover .reveal *, */
+.title.alt .reveal/* ,
+.title.alt .reveal *  */{
   /* font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol", "noto color emoji"; */
   font-family: "Open Sans", sans-serif, "apple color emoji", "segoe ui emoji", "android emoji", "emojisymbols", "emojione mozilla", "segoe ui symbol", "noto color emoji";  /* "twemoji mozilla" seems to be problematic */
 }
