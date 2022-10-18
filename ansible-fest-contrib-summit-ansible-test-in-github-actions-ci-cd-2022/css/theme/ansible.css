@@ -424,10 +424,10 @@ svg .a-mark{
     transition: all 300ms ease-in-out;
 }
 
-.reveal p,
+/*.reveal p,
 .reveal li{
   width: 80%;
-}
+}*/
 
 .reveal p.fullwidth,
 .reveal .col p,
